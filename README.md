@@ -1,6 +1,7 @@
 # Arquillian Extension for Liferay Example [](id=arquillian-extension-for-liferay-example)
 
-
+[![Build Status](https://travis-ci.org/liferay-labs/arquillian-blade-example.svg?branch=master)](https://travis-ci.org/liferay-labs/arquillian-blade-example)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/5f52f062ff7a4352b97718b7ed4940a0)](https://www.codacy.com/app/cristina-gonzalez/arquillian-blade-example?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=liferay-labs/arquillian-blade-example&amp;utm_campaign=Badge_Grade)
 [![Dependency Status](https://www.versioneye.com/user/projects/5832ccbb4ef164004d198677/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/5832ccbb4ef164004d198677)
 
 The
