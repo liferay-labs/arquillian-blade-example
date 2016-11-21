@@ -1,5 +1,8 @@
 # Arquillian Extension for Liferay Example [](id=arquillian-extension-for-liferay-example)
 
+
+[![Dependency Status](https://www.versioneye.com/user/projects/5832ccbb4ef164004d198677/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/5832ccbb4ef164004d198677)
+
 The
 [Arquillian Extension Liferay Example](https://github.com/arquillian/arquillian-extension-liferay/blob/master/arquillian-extension-liferay-example)
 project demonstrates how to use the Arquillian Liferay Extension. In this
