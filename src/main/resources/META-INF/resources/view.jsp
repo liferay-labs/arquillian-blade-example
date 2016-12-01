@@ -15,7 +15,6 @@
 </p>
 
 <aui:form action="<%= portletURL %>" method="post" name="fm">
-
 	<aui:input inlineField="<%= true %>" label="" name="firstParameter" size="4" type="int" value="<%= firstParameter %>" />
 	<span> + </span>
 	<aui:input inlineField="<%= true %>" label="" name="secondParameter" size="4" type="int" value="<%= secondParameter %>" />

@@ -15,6 +15,7 @@
 package com.liferay.arquillian.test;
 
 import com.google.common.io.Files;
+
 import com.liferay.arquillian.containter.remote.enricher.Inject;
 import com.liferay.arquillian.sample.service.SampleService;
 import com.liferay.portal.kernel.exception.PortalException;
@@ -36,9 +37,6 @@ import org.junit.runner.RunWith;
  */
 @RunWith(Arquillian.class)
 public class BasicPortletIntegrationTest {
-
-	@Inject
-	private SampleService sampleService;
 
 	@Deployment
 	public static JavaArchive create() throws Exception {
@@ -64,9 +62,12 @@ public class BasicPortletIntegrationTest {
 
 	@Test
 	public void testAdd() throws IOException, PortalException {
-		final long result = sampleService.add(1, 3);
+		final long result = _sampleService.add(1, 3);
 
 		Assert.assertEquals(4, result);
 	}
+
+	@Inject
+	private SampleService _sampleService;
 
 }

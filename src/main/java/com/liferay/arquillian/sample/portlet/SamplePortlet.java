@@ -48,10 +48,9 @@ import org.osgi.service.component.annotations.Reference;
 )
 public class SamplePortlet extends MVCPortlet {
 
-	private SampleService sampleService;
-
 	public void add(
-		final ActionRequest actionRequest, final ActionResponse actionResponse) {
+		final ActionRequest actionRequest,
+		final ActionResponse actionResponse) {
 
 		final ThemeDisplay themeDisplay =
 			(ThemeDisplay)actionRequest.getAttribute(WebKeys.THEME_DISPLAY);
@@ -61,7 +60,7 @@ public class SamplePortlet extends MVCPortlet {
 		final int secondParameter = ParamUtil.getInteger(
 			actionRequest, "secondParameter");
 
-		final long result = sampleService.add(firstParameter, secondParameter);
+		final long result = _sampleService.add(firstParameter, secondParameter);
 
 		final long plid = themeDisplay.getPlid();
 
@@ -82,6 +81,7 @@ public class SamplePortlet extends MVCPortlet {
 	public void setSampleService(final SampleService sampleService) {
 		this.sampleService = sampleService;
 	}
+	private SampleService _sampleService;
 
 	public SampleService getSampleService() {
 		return sampleService;

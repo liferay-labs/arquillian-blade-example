@@ -19,5 +19,4 @@
 	<engine>
 		<property name="deploymentExportPath">build/deployments</property>
 	</engine>
-
 </arquillian>
