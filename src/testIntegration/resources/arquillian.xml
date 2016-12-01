@@ -17,7 +17,7 @@
 	</extension>
 
 	<engine>
-		<property name="deploymentExportPath">/tmp/deployments</property>
+		<property name="deploymentExportPath">build/deployments</property>
 	</engine>
 
 </arquillian>
