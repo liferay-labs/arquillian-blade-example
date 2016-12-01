@@ -77,13 +77,7 @@ public class SamplePortlet extends MVCPortlet {
 		actionRequest.setAttribute(WebKeys.REDIRECT, portletURL.toString());
 	}
 
-	@Reference(unbind = "-")
-	public void setSampleService(final SampleService sampleService) {
-		this.sampleService = sampleService;
-	}
+	@Reference
 	private SampleService _sampleService;
 
-	public SampleService getSampleService() {
-		return sampleService;
-	}
 }
