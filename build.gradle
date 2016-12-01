@@ -81,6 +81,11 @@ jar {
 	}
 }
 
+setUpTestableTomcat {
+	// enable the line below if you have trouble with integration test connection to JMX server
+	//catalinaOptsReplacement "-Djava.net.preferIPv4Stack=true", "-Djava.net.preferIPv4Stack=true -Djava.rmi.server.hostname=127.0.0.1"
+}
+
 startTestableTomcat {
 	checkTimeout = 10 * 60 * 1000
 }
