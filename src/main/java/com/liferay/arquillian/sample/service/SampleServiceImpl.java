@@ -23,8 +23,8 @@ import org.osgi.service.component.annotations.Component;
 public class SampleServiceImpl implements SampleService {
 
 	@Override
-	public long add(final int sum1, final int sum2) {
-		return sum1 + sum2;
+	public long add(final int addend1, final int addend2) {
+		return addend1 + addend2;
 	}
 
 }
