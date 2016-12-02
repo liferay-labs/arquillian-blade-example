@@ -48,18 +48,7 @@ public class BasicPortletFunctionalTest {
 
 	@Deployment
 	public static JavaArchive create() throws Exception {
-		final File tempDir = Files.createTempDir();
-
-		final ProcessBuilder processBuilder = new ProcessBuilder(
-			"./gradlew", "jar", "-Pdir=" + tempDir.getAbsolutePath());
-
-		final Process process = processBuilder.start();
-
-		process.waitFor();
-
-		final File jarFile = new File(
-			tempDir.getAbsolutePath() +
-				"/com.liferay.arquillian.sample-1.0.0.jar");
+		final File jarFile = new File(System.getProperty("jarFile"));
 
 		return ShrinkWrap.createFromZipFile(JavaArchive.class, jarFile);
 	}
