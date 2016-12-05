@@ -84,12 +84,6 @@ startTestableTomcat {
 	checkTimeout = 10 * 60 * 1000
 }
 
-testIntegration {
-	dependsOn jar
-
-	systemProperty 'jarFile', jar.archivePath
-}
-
 repositories {
 	mavenLocal()
 
