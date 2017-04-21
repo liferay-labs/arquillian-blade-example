@@ -82,7 +82,7 @@ public class BasicPortletFunctionalTest {
 
 		_add.click();
 
-		Thread.sleep(2500);
+		Thread.sleep(5000);
 
 		Assert.assertEquals("5", _result.getText());
 	}
