@@ -49,7 +49,7 @@ dependencies {
 	compileOnly group: "org.osgi", name: "osgi.cmpn", version: "6.0.0"
 	compileOnly group: "org.osgi", name: "osgi.core", version: "6.0.0"
 
-	testIntegrationCompile group: "com.liferay.arquillian", name: "com.liferay.arquillian.arquillian-container-liferay", version: "1.0.5"
+	testIntegrationCompile group: "com.liferay.arquillian", name: "com.liferay.arquillian.arquillian-container-liferay", version: "1.0.6"
 	testIntegrationCompile group: "junit", name: "junit", version: "4.12"
 	testIntegrationCompile group: "org.jboss.arquillian.graphene", name: "graphene-webdriver", version: "2.1.0.Final"
 	testIntegrationCompile group: "org.jboss.arquillian.junit", name: "arquillian-junit-container", version: "1.1.11.Final"
