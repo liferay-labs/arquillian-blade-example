@@ -35,6 +35,8 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -80,7 +82,7 @@ public class BasicPortletFunctionalTest {
 
 		_add.click();
 
-		Thread.sleep(1000);
+		Thread.sleep(2500);
 
 		Assert.assertEquals("5", _result.getText());
 	}
