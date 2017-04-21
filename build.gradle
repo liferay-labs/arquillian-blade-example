@@ -1,6 +1,7 @@
 buildscript {
 	dependencies {
-		classpath group: "com.liferay", name: "com.liferay.gradle.plugins", version: "3.0.43"
+		classpath group: "com.liferay", name: "com.liferay.gradle.plugins", version: "3.2.40"
+		classpath 'de.undercouch:gradle-download-task:3.1.1'
 		classpath 'de.undercouch:gradle-download-task:3.1.1'
 	}
 
@@ -17,8 +18,26 @@ buildscript {
 	}
 }
 
+repositories {
+	mavenLocal()
+
+	mavenCentral()
+
+	jcenter()
+
+	maven {
+		url "https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public"
+	}
+}
+
+
 apply plugin: "com.liferay.plugin"
 apply plugin: 'de.undercouch.download'
+apply plugin: "jacoco"
+
+jacoco {
+	toolVersion = "0.7.9"
+}
 
 dependencies {
 	compileOnly group: "com.liferay.portal", name: "com.liferay.portal.kernel", version: "2.5.0"
@@ -39,11 +58,26 @@ dependencies {
 import de.undercouch.gradle.tasks.download.Download
 import org.gradle.api.tasks.testing.logging.TestExceptionFormat
 import org.gradle.api.tasks.testing.logging.TestLogEvent
+import java.lang.management.*
+import javax.management.ObjectName
+import javax.management.remote.JMXConnectorFactory as JmxFactory
+import javax.management.remote.JMXServiceURL as JmxUrl
+
 
 def bundle = 'liferay/bundle.zip'
 
 liferay {
 	liferayHome = 'liferay/liferay-ce-portal-7.0-ga3'
+}
+
+task copyJacocoAgent(type: Copy) {
+println configurations.jacocoAgent
+
+	configurations.jacocoAgent.asFileTree.each {
+		from(zipTree(it))
+	}
+
+	into "${rootDir}/build/jacoco"
 }
 
 task downloadLiferay(type: Download) {
@@ -76,8 +110,10 @@ jar {
 }
 
 setUpTestableTomcat {
+	dependsOn copyJacocoAgent
+
 	// enable the line below if you have trouble with integration test connection to JMX server
-	//catalinaOptsReplacement "-Djava.net.preferIPv4Stack=true", "-Djava.net.preferIPv4Stack=true -Djava.rmi.server.hostname=127.0.0.1"
+	catalinaOptsReplacement "-XX:MaxPermSize=384m\"", "-XX:MaxPermSize=384m\"\n\nJACOCO_OPTS=\"-javaagent:${rootDir}/build/jacoco/jacocoagent.jar=destfile=${rootDir}/build/jacoco/testIntegration.exec,output=file,append=true,jmx=true\"\n\nCATALINA_OPTS=\"\${CATALINA_OPTS} \${JACOCO_OPTS}\"\n"
 }
 
 startTestableTomcat {
@@ -90,6 +126,34 @@ repositories {
 	maven {
 		url "https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public"
 	}
+}
+
+task dumpJacoco {
+	doLast {
+		def serverUrl = 'service:jmx:rmi:///jndi/rmi://localhost:8099/jmxrmi'
+		String beanName = "org.jacoco:type=Runtime"
+		def server = JmxFactory.connect(new JmxUrl(serverUrl)).MBeanServerConnection
+		def gmxb = new GroovyMBean(server, beanName)
+
+		println "Connected to:\n$gmxb\n"
+		println "Executing dump()"
+		gmxb.dump(true)
+	}
+}
+
+jacocoTestReport {
+	dependsOn dumpJacoco
+	group = "Reporting"
+	reports {
+		xml.enabled true
+		csv.enabled false
+		html.destination "${buildDir}/reports/coverage"
+	}
+	executionData = files("${rootDir}/build/jacoco/testIntegration.exec")
+}
+
+testIntegration {
+	finalizedBy jacocoTestReport
 }
 
 tasks.withType(Test) {

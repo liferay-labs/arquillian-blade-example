@@ -443,42 +443,59 @@ Add the following to your project's `arquillian.xml` file in the `src/testIntegr
                 ...
         </arquillian>
 
-## Get a Coverage Report [](id=create-a-jacoco-profile)
+## Get a Coverage Report with JaCoCo[](id=create-a-jacoco-profile)
 
 [JaCoCo](http://eclemma.org/jacoco/) is a code coverage library for Java.
 
-1.  Use the JaCoCo Gradle Plugin with the dependencies `org.jacoco.core` and
-    `arquillian-jacoco` in your `build.gradle`file:
+1.  Attach JaCoCo agent to a running JVM
+
+    Here's an example of a `setenv.sh` file that enables JMX in Tomcat on port 8099 without authentication:
+
+    ```
+    CATALINA_OPTS="$CATALINA_OPTS -Dfile.encoding=UTF8 -Djava.net.preferIPv4Stack=true -Dorg.apache.catalina.loader.WebappClassLoader.ENABLE_CLEAR_REFERENCES=false -Duser.timezone=GMT -Xmx1024m -XX:MaxPermSize=256m"
+
+    JACOCO_OPTS="-javaagent:PATH_TO_JACOCO_AGENT_JAR/jacocoagent.jar=destfile=JACOCO_EXEC_FILE,output=file,append=true,jmx=true"
+    
+    CATALINA_OPTS="${CATALINA_OPTS} ${JACOCO_OPTS}"`
+    ```
+
+    In this case `PATH_TO_JACOCO_AGENT_JAR` is the path to the jacocoagent.jar file and `JACOCO_EXEC_FILE` is the path to the JaCoCo result dump.
+    
+    You can customize your `setenv.sh` in a similar way.
+
+2.  Use the JaCoCo Gradle Plugin in your `build.gradle`file:
 
         ...
         apply plugin: 'jacoco'
 
         jacoco {
-            toolVersion = '0.7.4.201502262128'
+            toolVersion = '0.7.9'
         }
 
         testIntegration { finalizedBy jacocoTestReport }
 
+        task dumpJacoco {
+            def serverUrl = 'service:jmx:rmi:///jndi/rmi://localhost:8099/jmxrmi'
+            String beanName = "org.jacoco:type=Runtime"
+            def server = JmxFactory.connect(new JmxUrl(serverUrl)).MBeanServerConnection
+            def gmxb = new GroovyMBean(server, beanName)
+            
+            gmxb.dump(true)
+         }
+
         jacocoTestReport {
+            dependsOn dumpJacoco
+            
             group = "Reporting"
             reports {
                 xml.enabled true
                 csv.enabled false
                 html.destination "${buildDir}/reports/coverage"
             }
-            executionData = files('build/jacoco/testIntegration.exec')
+            executionData = files(JACOCO_EXEC_FILE)
         }
-        ...
-        
-        dependencies {
-            ...
-           	testIntegrationCompile group:"org.jboss.arquillian.extension", name: "arquillian-jacoco", version: "1.0.0.Alpha8"
-	        testIntegrationCompile group:"org.jacoco", name: "org.jacoco.core", version: "0.7.4.201502262128"
-            ...
-        }
-        ...
 
-2.  Generate a Jacoco report in HTML:
+3.  Generate a Jacoco report in HTML:
 
         gradlew testIntegration
 
