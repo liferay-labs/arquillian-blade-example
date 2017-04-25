@@ -112,8 +112,9 @@ jar {
 setUpTestableTomcat {
 	dependsOn copyJacocoAgent
 
-	// enable the line below if you have trouble with integration test connection to JMX server
-	catalinaOptsReplacement "-XX:MaxPermSize=384m\"", "-XX:MaxPermSize=384m\"\n\nJACOCO_OPTS=\"-javaagent:${rootDir}/build/jacoco/jacocoagent.jar=destfile=${rootDir}/build/jacoco/testIntegration.exec,output=file,append=true,jmx=true\"\n\nCATALINA_OPTS=\"\${CATALINA_OPTS} \${JACOCO_OPTS}\"\n"
+	//catalinaOptsReplacement "-Djava.net.preferIPv4Stack=true", "-Djava.net.preferIPv4Stack=true -Djava.rmi.server.hostname=localhost"
+	//catalinaOptsReplacement "-XX:MaxPermSize=384m\"", "-XX:MaxPermSize=384m\"\n\nJACOCO_OPTS=\"-javaagent:${rootDir}/build/jacoco/jacocoagent.jar=destfile=${rootDir}/build/jacoco/testIntegration.exec,output=file,append=true,jmx=true\"\n\nCATALINA_OPTS=\"\${CATALINA_OPTS} \${JACOCO_OPTS}\"\n"
+
 }
 
 startTestableTomcat {

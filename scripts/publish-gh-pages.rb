@@ -36,6 +36,8 @@ Dir.glob('build/reports/**/*').each do|f|
         "Add Test Report " + reportDir + " " + f,
         content,
         :branch => "gh-pages")
+
+    sleep(1000)
  end
 end
 

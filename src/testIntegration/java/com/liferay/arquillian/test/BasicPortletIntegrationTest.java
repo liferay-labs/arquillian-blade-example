@@ -42,8 +42,14 @@ public class BasicPortletIntegrationTest {
 	public static JavaArchive create() throws Exception {
 		final File tempDir = Files.createTempDir();
 
+		String gradlew = "./gradlew";
+
+		if (System.getProperty("os.name").startsWith("Windows")) {
+			gradlew = "./gradlew.bat";
+		}
+
 		final ProcessBuilder processBuilder = new ProcessBuilder(
-			"./gradlew", "jar", "-Pdir=" + tempDir.getAbsolutePath());
+			gradlew, "jar", "-Pdir=" + tempDir.getAbsolutePath());
 
 		final Process process = processBuilder.start();
 
