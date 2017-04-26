@@ -375,9 +375,9 @@ Add the following to your project's `arquillian.xml` file in the `src/testIntegr
             public void testAdd() throws IOException, PortalException {
                 browser.get(_portlerURL.toExternalForm());
 
-                firstParamter.clear();
+                firstParameter.clear();
 
-                firstParamter.sendKeys("2");
+                firstParameter.sendKeys("2");
 
                 secondParameter.clear();
 
@@ -412,7 +412,7 @@ Add the following to your project's `arquillian.xml` file in the `src/testIntegr
             private WebDriver browser;
 
             @FindBy(css = "input[id$='firstParameter']")
-            private WebElement firstParamter;
+            private WebElement firstParameter;
 
             @FindBy(css = "span[class='result']")
             private WebElement result;
