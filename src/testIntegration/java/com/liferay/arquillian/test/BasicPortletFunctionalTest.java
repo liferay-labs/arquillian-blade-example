@@ -72,9 +72,9 @@ public class BasicPortletFunctionalTest {
 
 		_browser.get(_portlerURL.toExternalForm());
 
-		_firstParamter.clear();
+		_firstParameter.clear();
 
-		_firstParamter.sendKeys("2");
+		_firstParameter.sendKeys("2");
 
 		_secondParameter.clear();
 
@@ -105,7 +105,7 @@ public class BasicPortletFunctionalTest {
 	private WebDriver _browser;
 
 	@FindBy(css = "input[id$='firstParameter']")
-	private WebElement _firstParamter;
+	private WebElement _firstParameter;
 
 	@PortalURL("arquillian_sample_portlet")
 	private URL _portlerURL;
