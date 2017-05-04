@@ -8,3 +8,6 @@ jdk:
 
 script:
   - ./gradlew clean testIntegration
+
+after_script:
+  - ruby ./scripts/publish-gh-pages.rb
