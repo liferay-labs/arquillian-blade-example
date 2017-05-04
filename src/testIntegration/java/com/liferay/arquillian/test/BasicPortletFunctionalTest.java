@@ -24,10 +24,13 @@ import java.io.IOException;
 
 import java.net.URL;
 
+import org.arquillian.extension.recorder.screenshooter.Screenshooter;
+import org.arquillian.extension.recorder.screenshooter.api.Screenshot;
 import org.jboss.arquillian.container.test.api.Deployment;
 import org.jboss.arquillian.container.test.api.RunAsClient;
 import org.jboss.arquillian.drone.api.annotation.Drone;
 import org.jboss.arquillian.junit.Arquillian;
+import org.jboss.arquillian.test.api.ArquillianResource;
 import org.jboss.shrinkwrap.api.ShrinkWrap;
 import org.jboss.shrinkwrap.api.spec.JavaArchive;
 
@@ -67,10 +70,18 @@ public class BasicPortletFunctionalTest {
 	}
 
 	@Test
+	@Screenshot(
+		takeBeforeTest = true,
+		takeAfterTest = true,
+		takeWhenTestFailed = true)
 	public void testAdd()
 		throws InterruptedException, IOException, PortalException {
 
+		System.out.println("URL: " + _portlerURL.toExternalForm());
+
 		_browser.get(_portlerURL.toExternalForm());
+
+		System.out.println("SOURCE " + _browser.getPageSource());
 
 		_firstParameter.clear();
 
@@ -116,4 +127,7 @@ public class BasicPortletFunctionalTest {
 	@FindBy(css = "input[id$='secondParameter']")
 	private WebElement _secondParameter;
 
+
+	@ArquillianResource
+	Screenshooter screenshooter;
 }

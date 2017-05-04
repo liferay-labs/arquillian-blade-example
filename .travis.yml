@@ -6,18 +6,31 @@ language: java
 jdk:
   - oraclejdk8
 
+before_install:
+  - "export DISPLAY=:99.0"
+  - "sh -e /etc/init.d/xvfb start"
+  - sleep 3 # give xvfb some time to start
+
 install:
   - rvm install 2.4.1
   - gem install octokit
   - gem install colorize
 
 script:
-  - ./gradlew clean testIntegration
+  - ./gradlew copyPortalExt
+  - liferay/liferay-ce-portal-7.0-ga3/tomcat-8.0.32/bin/catalina.sh run &
+  - ./gradlew checkURL
+  - ./gradlew checkJMX
+  - jps
+  - ./gradlew testIntegration
 
 after_script:
+  - jps
+  - ./gradlew checkJMX
+  - ./gradlew checkURL
   - ruby ./scripts/publish-gh-pages.rb
+  - cat liferay/liferay-ce-portal-7.0-ga3/tomcat-8.0.32/bin/setenv.sh
 
 cache:
   directories:
-  - liferay
-  - $HOME/.m2
+    - $HOME/.m2
