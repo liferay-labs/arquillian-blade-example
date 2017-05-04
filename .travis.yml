@@ -6,5 +6,18 @@ language: java
 jdk:
   - oraclejdk8
 
+install:
+  - rvm install 2.4.1
+  - gem install octokit
+  - gem install colorize
+
 script:
   - ./gradlew clean testIntegration
+
+after_script:
+  - ruby ./scripts/publish-gh-pages.rb
+
+cache:
+  directories:
+  - liferay
+  - $HOME/.m2
