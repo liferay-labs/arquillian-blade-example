@@ -1,0 +1,1087 @@
+09:50:24,656 INFO  [localhost-startStop-1][DialectDetector:75] Determine dialect for HSQL Database Engine 2.3
+09:50:24,767 WARN  [localhost-startStop-1][DialectDetector:93] Liferay is configured to use Hypersonic as its database. Do NOT use Hypersonic in production. Hypersonic is an embedded database useful for development and demonstration purposes. The database settings can be changed in portal-ext.properties.
+09:50:24,769 INFO  [localhost-startStop-1][DialectDetector:148] Found dialect com.liferay.portal.dao.orm.hibernate.HSQLDialect
+09:50:27,293 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED org.eclipse.osgi_3.10.200.v20150831-0856 [0]
+09:50:28,177 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.osgi.util_3.0.2 [2]
+09:50:28,183 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.petra.xml_1.0.3 [3]
+09:50:28,184 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.configuration.metatype_2.0.3 [4]
+09:50:28,215 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.configuration.persistence_2.0.1 [5]
+09:50:28,224 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.log4j.extender_2.0.2 [6]
+09:50:28,239 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.lpkg.deployer_2.0.5 [7]
+09:50:28,241 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.osgi.web.portlet.tracker_2.0.3 [8]
+09:50:28,242 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.osgi.web.servlet.context.helper_2.1.2 [9]
+09:50:28,244 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.osgi.web.servlet.jsp.compiler_2.0.7 [10]
+09:50:28,245 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.osgi.web.wab.extender_2.0.7 [11]
+09:50:28,246 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.osgi.web.wab.generator_2.1.9 [12]
+09:50:28,246 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.osgi.web.wab.reference.support_1.0.3 [13]
+09:50:28,248 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.profile_1.0.2 [14]
+09:50:28,249 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.target.platform.indexer_4.0.0 [16]
+09:50:28,250 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.sun.el.javax.el_3.0.0 [17]
+09:50:28,252 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED javax.servlet.jsp-api_2.3.2.b01 [18]
+09:50:28,253 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED javax.servlet.jsp.jstl_1.2.3.LIFERAY-PATCHED-2 [19]
+09:50:28,255 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED javax.servlet.jsp.jstl-api_1.2.1 [20]
+09:50:28,256 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED org.apache.aries.jmx.api_1.1.1 [21]
+09:50:28,280 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED org.apache.aries.jmx.core_1.1.3 [22]
+09:50:28,281 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED org.apache.aries.util_1.0.0 [23]
+09:50:28,283 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED org.apache.commons.fileupload_1.2.1 [24]
+09:50:28,284 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED org.apache.commons.io_1.4.0 [25]
+09:50:28,490 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED org.apache.felix.bundlerepository_2.0.2 [26]
+09:50:28,511 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED org.apache.felix.configadmin_1.8.8 [27]
+09:50:28,513 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED org.apache.felix.dependencymanager_3.2.0 [28]
+09:50:28,516 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED org.apache.felix.dependencymanager.shell_3.2.0 [29]
+09:50:28,547 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED org.apache.felix.eventadmin_1.4.6 [30]
+09:50:28,834 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED org.apache.felix.fileinstall_3.5.1.SNAPSHOT [31]
+09:50:28,849 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED org.apache.felix.gogo.command_0.12.0 [32]
+09:50:28,865 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED org.apache.felix.gogo.runtime_0.10.0 [33]
+09:50:28,879 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED org.apache.felix.gogo.shell_0.10.0 [34]
+09:50:33,464 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][LPKGIndexValidator:159] Running validation because of mismatched checksum for liferay-target-platform
+09:52:11,874 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][LPKGIndexValidator:278] LPKG validation time 01:42s
+09:52:42,388 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][LPKGIndexValidator:221] Updated /home/travis/build/liferay-labs/arquillian-blade-example/liferay/liferay-ce-portal-7.0-ga3/osgi/target-platform/integrity.properties
+09:52:42,407 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED org.apache.felix.scr_2.0.2 [35]
+09:52:42,640 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED org.eclipse.equinox.console_1.1.100.v20141023-1406 [36]
+09:52:42,650 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED org.eclipse.equinox.http.servlet_1.2.2.v20160714-2322 [37]
+09:52:42,671 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED org.eclipse.equinox.metatype_1.4.200.v20150715-1528 [38]
+09:52:42,672 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED org.osgi.service.http_3.5.0.LIFERAY-PATCHED-2 [39]
+09:52:42,674 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED org.osgi.service.metatype_1.3.0.201505202024 [40]
+09:52:42,677 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.util.taglib_2.4.1 [1]
+09:52:42,830 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED Liferay CE Collaboration_7.0.5 [43]
+09:52:42,835 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.announcements.web_1.0.6 [44]
+09:52:42,894 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.blogs.api_3.0.1 [45]
+09:52:42,908 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.blogs.editor.configuration_1.0.2 [46]
+09:52:42,918 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.blogs.item.selector.api_1.0.2 [47]
+09:52:42,921 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.blogs.item.selector.web_1.0.3 [48]
+09:52:42,923 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.blogs.layout.prototype_2.0.3 [49]
+09:52:42,926 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.blogs.recent.bloggers.web_1.1.0 [50]
+09:52:42,944 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.blogs.service_1.0.4 [51]
+09:52:42,973 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.blogs.web_1.0.15 [52]
+09:52:43,216 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.bookmarks.api_2.0.1 [53]
+09:52:43,230 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.bookmarks.service_1.0.10 [54]
+09:52:43,288 INFO  [Refresh Thread: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.document.library.repository.cmis.impl_2.0.3 [67]
+09:52:43,309 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.bookmarks.web_1.0.11 [55]
+09:52:44,115 INFO  [fileinstall-/home/travis/build/liferay-labs/arquillian-blade-example/liferay/liferay-ce-portal-7.0-ga3/osgi/modules][BundleStartStopLogger:35] STARTED com.liferay.portal.test.integration_1.0.1 [41]
+09:52:44,121 INFO  [fileinstall-/home/travis/build/liferay-labs/arquillian-blade-example/liferay/liferay-ce-portal-7.0-ga3/osgi/modules][BundleStartStopLogger:35] STARTED com.liferay.portal.test_1.0.1 [42]
+09:52:44,142 INFO  [Refresh Thread: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.remote.cxf.common_2.0.6 [276]
+09:52:44,149 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.comment.api_2.0.1 [56]
+09:52:44,153 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.comment.editor.configuration_1.0.2 [57]
+09:52:44,161 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.comment.page.comments.web_1.0.3 [58]
+09:52:44,189 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.comment.ratings.definition_2.0.2 [59]
+09:52:44,196 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.comment.sanitizer_2.0.2 [60]
+09:52:44,199 INFO  [Refresh Thread: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.remote.rest.extender_2.0.3 [280]
+09:52:44,206 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.comment.web_1.1.0 [61]
+09:52:44,217 INFO  [Refresh Thread: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.remote.soap.extender_2.0.1 [281]
+09:52:44,229 INFO  [Refresh Thread: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.marketplace.api_4.1.0 [478]
+09:52:44,230 INFO  [Refresh Thread: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.marketplace.app.manager.web_1.0.9 [479]
+09:52:44,233 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.directory.web_1.0.6 [62]
+09:52:44,235 INFO  [Refresh Thread: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.marketplace.deployer_2.0.6 [480]
+09:52:44,247 INFO  [Refresh Thread: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.marketplace.service_2.1.9 [481]
+09:52:44,261 INFO  [Refresh Thread: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.marketplace.store.web_2.0.4 [482]
+09:52:44,269 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.document.library.api_3.0.2 [63]
+09:52:44,270 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.document.library.item.selector.web_1.0.3 [64]
+09:52:44,274 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.document.library.layout.set.prototype_2.0.3 [65]
+09:52:44,288 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.document.library.repository.cmis.api_1.0.3 [66]
+09:52:44,361 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.document.library.repository.search_2.0.1 [68]
+09:52:44,380 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.document.library.service_1.1.4 [69]
+09:52:44,429 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.document.library.web_1.1.1 [70]
+09:52:44,685 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.flags.api_2.0.1 [71]
+09:52:44,689 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.flags.service_2.0.4 [72]
+09:52:44,700 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.flags.taglib_2.0.3 [73]
+09:52:44,713 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.flags.web_2.0.3 [74]
+09:52:44,735 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.image.uploader.web_1.0.6 [75]
+09:52:44,790 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.invitation.invite.members.api_2.1.0 [76]
+09:52:44,793 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.invitation.invite.members.service_2.0.5 [77]
+09:52:44,804 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.invitation.invite.members.web_1.0.9 [78]
+09:52:44,819 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.item.selector.api_2.1.0 [79]
+09:52:44,821 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.item.selector.criteria.api_2.0.2 [80]
+09:52:44,833 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.item.selector.editor.configuration_2.0.2 [81]
+09:52:44,837 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.item.selector.taglib_1.0.7 [82]
+09:52:44,847 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.item.selector.upload.web_2.0.2 [83]
+09:52:44,849 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.item.selector.url.web_2.0.2 [84]
+09:52:44,851 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.item.selector.web_2.0.3 [85]
+09:52:44,902 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.mentions.api_2.0.2 [86]
+09:52:44,905 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.mentions.service_2.0.3 [87]
+09:52:44,908 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.mentions.web_1.1.1 [88]
+09:52:44,919 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.message.boards.api_3.0.1 [89]
+09:52:44,921 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.message.boards.comment_2.0.4 [90]
+09:52:44,932 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.message.boards.layout.set.prototype_1.0.6 [91]
+09:52:44,939 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.message.boards.parser.bbcode_2.0.2 [92]
+09:52:44,949 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.message.boards.service_1.0.7 [93]
+09:52:44,965 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.message.boards.web_1.1.0 [94]
+09:52:45,148 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.microblogs.api_2.0.1 [95]
+09:52:45,150 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.microblogs.service_2.0.6 [96]
+09:52:45,162 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.microblogs.web_2.0.6 [97]
+09:52:45,193 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.notifications.web_1.0.10 [98]
+09:52:45,217 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.quick.note.web_2.0.2 [99]
+09:52:45,230 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.ratings.api_2.0.1 [100]
+09:52:45,231 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.ratings.page.ratings.web_2.0.3 [101]
+09:52:45,239 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.ratings.service_1.0.4 [102]
+09:52:45,247 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.recent.documents.web_2.0.3 [103]
+09:52:45,264 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.social.activities.web_1.1.1 [104]
+09:52:45,277 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.social.activity.api_1.0.1 [105]
+09:52:45,282 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.social.activity.web_2.0.3 [106]
+09:52:45,294 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.social.group.statistics.web_2.0.2 [107]
+09:52:45,305 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.social.privatemessaging.api_2.0.1 [108]
+09:52:45,308 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.social.privatemessaging.service_1.1.3 [109]
+09:52:45,312 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.social.privatemessaging.web_1.0.7 [110]
+09:52:45,320 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.social.requests.web_1.0.3 [111]
+09:52:45,423 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.social.user.statistics.web_2.1.0 [112]
+09:52:45,432 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.wiki.api_2.2.0 [113]
+09:52:45,449 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.wiki.editor.configuration_1.0.3 [114]
+09:52:45,460 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.wiki.engine.creole_2.0.3 [115]
+09:52:45,474 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.wiki.engine.html_2.0.2 [116]
+09:52:45,482 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.wiki.engine.input.editor.common_2.0.2 [117]
+09:52:45,486 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.wiki.engine.text_2.0.2 [118]
+09:52:45,488 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.wiki.layout.prototype_1.0.5 [119]
+09:52:45,490 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.wiki.navigation.web_2.0.5 [120]
+09:52:45,499 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.wiki.service_1.2.3 [121]
+09:52:45,562 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.wiki.web_2.1.1 [122]
+09:52:45,759 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED Liferay CE Forms and Workflow_7.0.6 [123]
+09:52:45,762 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.calendar.api_2.0.1 [124]
+09:52:45,763 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.calendar.service_2.1.2 [125]
+09:52:45,826 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.dynamic.data.lists.api_2.0.3 [126]
+09:52:45,840 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.dynamic.data.lists.service_1.1.6 [127]
+09:52:45,877 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.dynamic.data.mapping.api_3.3.0 [128]
+09:52:45,900 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.dynamic.data.mapping.data.provider_2.0.2 [129]
+09:52:45,914 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.dynamic.data.mapping.data.provider.rest_2.0.3 [130]
+09:52:45,917 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.dynamic.data.mapping.expression_2.0.2 [131]
+09:52:45,927 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.dynamic.data.mapping.form.evaluator_2.0.2 [132]
+09:52:45,931 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.dynamic.data.mapping.form.field.type_2.0.3 [133]
+09:52:45,943 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.dynamic.data.mapping.form.values.factory_2.0.4 [134]
+09:52:45,953 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.dynamic.data.mapping.form.values.query_2.0.4 [135]
+09:52:45,969 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.dynamic.data.mapping.io_2.0.7 [136]
+09:52:45,977 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.dynamic.data.mapping.lang_2.0.2 [137]
+09:52:45,981 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.dynamic.data.mapping.service_2.1.9 [138]
+09:52:46,078 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.dynamic.data.mapping.validator_2.1.0 [139]
+09:52:46,099 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.polls.api_4.0.0 [140]
+09:52:46,112 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.polls.service_3.0.5 [141]
+09:52:46,151 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.reports.engine.api_3.0.0 [142]
+09:52:46,152 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.rules.engine.api_2.0.1 [143]
+09:52:46,153 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.rules.engine.wiring_2.0.1 [144]
+09:52:46,155 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.workflow.definition.link.web_1.0.4 [145]
+09:52:46,168 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.workflow.instance.web_1.0.6 [146]
+09:52:46,195 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.workflow.kaleo.api_2.0.1 [147]
+09:52:46,196 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.workflow.kaleo.definition.api_2.0.1 [148]
+09:52:46,197 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.workflow.kaleo.definition.impl_2.0.1 [149]
+09:52:46,265 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.workflow.kaleo.runtime.api_2.1.0 [150]
+09:52:46,267 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.workflow.kaleo.runtime.impl_2.0.6 [151]
+09:52:46,380 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.workflow.kaleo.runtime.scripting.impl_1.0.1 [152]
+09:52:46,390 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.workflow.kaleo.service_2.0.8 [153]
+09:52:46,413 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.workflow.lang_2.0.2 [154]
+09:52:46,414 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.calendar.web_1.0.9 [155]
+09:52:46,443 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.dynamic.data.mapping.type.paragraph_2.0.6 [156]
+09:52:46,464 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.dynamic.data.lists.form.web_1.0.10 [157]
+09:52:46,528 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.dynamic.data.lists.web_1.1.7 [158]
+09:52:46,600 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.dynamic.data.mapping.data.provider.web_1.0.5 [159]
+09:52:46,629 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.dynamic.data.mapping.form.renderer_2.1.1 [160]
+09:52:46,646 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.dynamic.data.mapping.taglib_2.0.3 [161]
+09:52:46,653 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.dynamic.data.mapping.type.captcha_2.0.3 [162]
+09:52:46,667 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.dynamic.data.mapping.type.checkbox_2.0.7 [163]
+09:52:46,682 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.dynamic.data.mapping.type.date_2.0.7 [164]
+09:52:46,694 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.dynamic.data.mapping.type.editor_2.0.7 [165]
+09:52:46,699 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.dynamic.data.mapping.type.key.value_2.0.5 [166]
+09:52:46,704 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.dynamic.data.mapping.type.options_2.0.5 [167]
+09:52:46,711 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.dynamic.data.mapping.type.radio_2.0.8 [168]
+09:52:46,720 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.dynamic.data.mapping.type.select_2.0.7 [169]
+09:52:46,730 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.dynamic.data.mapping.type.text_2.0.7 [170]
+09:52:46,741 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.dynamic.data.mapping.type.validation_2.0.4 [171]
+09:52:46,747 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.dynamic.data.mapping.web_1.0.10 [172]
+09:52:46,772 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.polls.web_2.0.6 [173]
+09:52:46,798 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.workflow.definition.web_1.0.5 [174]
+09:52:46,834 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.workflow.task.web_1.0.8 [175]
+09:52:46,888 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED Liferay CE Foundation_7.0.7 [176]
+09:52:47,073 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED woodstox-core-asl_4.4.1 [177]
+09:52:47,074 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.configuration.admin.web_1.0.7 [178]
+09:52:47,088 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.contacts.api_2.0.3 [179]
+09:52:47,089 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.contacts.service_2.0.4 [180]
+09:52:47,095 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.contacts.web_1.0.12 [181]
+09:52:47,150 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.expando.web_1.0.5 [182]
+09:52:47,152 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.frontend.css.common_2.0.1 [183]
+09:52:47,153 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.frontend.css.rtl.converter_1.0.2 [184]
+09:52:47,154 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.frontend.css.rtl.servlet_1.0.3 [185]
+09:52:47,162 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.frontend.css.web_1.0.11 [186]
+09:52:47,170 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.frontend.editor.alloyeditor.web_1.0.7 [187]
+09:52:47,200 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.frontend.editor.ckeditor.web_1.0.7 [188]
+09:52:47,221 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.frontend.editor.lang_1.0.2 [189]
+09:52:47,230 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.frontend.editor.simple.web_1.0.3 [190]
+09:52:47,232 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.frontend.editor.tinymce.web_1.0.3 [191]
+09:52:47,244 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.frontend.image.editor.api_1.0.2 [192]
+09:52:47,245 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.frontend.image.editor.capability.brightness_1.0.3 [193]
+09:52:47,249 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.frontend.image.editor.capability.contrast_1.0.3 [194]
+09:52:47,251 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.frontend.image.editor.capability.crop_1.0.3 [195]
+09:52:47,256 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.frontend.image.editor.capability.effects_1.0.3 [196]
+09:52:47,259 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.frontend.image.editor.capability.resize_1.0.3 [197]
+09:52:47,262 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.frontend.image.editor.capability.rotate_1.0.3 [198]
+09:52:47,264 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.frontend.image.editor.capability.saturation_1.0.3 [199]
+09:52:47,269 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.frontend.image.editor.integration.document.library_1.0.4 [200]
+09:52:47,275 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.frontend.image.editor.web_1.0.3 [201]
+09:52:47,314 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.frontend.js.bundle.config.extender_1.0.4 [202]
+09:52:47,331 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.frontend.js.loader.modules.extender_1.0.3 [203]
+09:52:47,359 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.frontend.js.metal.web_1.0.7 [204]
+09:52:47,359 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.frontend.js.polyfill.babel.web_1.0.2 [205]
+09:52:47,360 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.frontend.js.soyutils.web_1.0.3 [206]
+09:52:47,361 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.frontend.js.spa.web_1.0.10 [207]
+09:52:47,380 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.frontend.js.web_1.0.10 [208]
+09:52:47,382 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.frontend.taglib_2.0.5 [209]
+09:52:47,388 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.frontend.taglib.util.freemarker.contributor_1.0.2 [210]
+09:52:47,389 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.frontend.theme.contributor.extender_1.0.4 [211]
+09:52:47,511 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.frontend.theme.styled_2.0.9 [212]
+09:52:47,512 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.frontend.theme.unstyled_2.0.8 [213]
+09:52:47,513 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.hello.soy.web_1.0.2 [214]
+09:52:47,519 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.hello.velocity.web_2.0.3 [215]
+09:52:47,523 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.hello.world.web_2.0.3 [216]
+09:52:47,528 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.license.manager.web_2.0.2 [217]
+09:52:47,533 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.login.authentication.facebook.connect.web_2.0.3 [218]
+09:52:47,542 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.login.authentication.google.web_2.0.2 [219]
+09:52:47,551 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.login.authentication.openid.web_2.0.2 [220]
+09:52:47,562 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.login.web_1.0.7 [221]
+09:52:47,586 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.map.api_2.0.1 [222]
+09:52:47,590 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.map.common_2.0.1 [223]
+09:52:47,591 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.map.google.maps_1.0.6 [224]
+09:52:47,593 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.map.openstreetmap_2.0.2 [225]
+09:52:47,599 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.map.taglib_1.0.5 [226]
+09:52:47,604 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.mobile.device.rules.api_2.0.1 [227]
+09:52:47,605 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.mobile.device.rules.service_1.2.1 [228]
+09:52:47,660 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.mobile.device.rules.web_1.0.10 [229]
+09:52:47,683 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.monitoring.web_1.0.5 [230]
+09:52:47,703 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.my.account.web_1.0.3 [231]
+09:52:47,730 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.password.policies.admin.api_2.0.1 [232]
+09:52:47,731 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.password.policies.admin.impl_1.0.4 [233]
+09:52:47,737 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.password.policies.admin.web_1.0.12 [234]
+09:52:47,753 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.petra.collection_1.0.2 [235]
+09:52:47,754 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.petra.content_1.0.1 [236]
+09:52:47,755 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.petra.doulos_3.2.2 [237]
+09:52:47,756 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.petra.encryptor_1.0.2 [238]
+09:52:47,756 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.petra.io.delta_1.0.3 [239]
+09:52:47,757 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.petra.log4j_1.0.2 [240]
+09:52:47,758 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.petra.mail_1.0.2 [241]
+09:52:47,758 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.plugins.admin.web_1.0.4 [242]
+09:52:47,769 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.background.task.api_2.1.0 [243]
+09:52:47,772 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.background.task.service_2.0.6 [244]
+09:52:47,784 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.background.task.web_2.0.2 [245]
+09:52:47,792 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.cache_2.1.1 [246]
+09:52:47,802 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.cache.ehcache_2.1.1 [247]
+09:52:47,833 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.cache.ehcache.provider_2.0.1 [248]
+09:52:47,836 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.cache.single_2.0.1 [249]
+09:52:47,843 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.cluster.single_2.0.1 [250]
+09:52:47,856 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.compound.session.id_2.0.1 [251]
+09:52:47,863 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.configuration.cluster_2.1.0 [252]
+09:52:47,873 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.configuration.extender_2.0.1 [253]
+09:52:47,889 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.configuration.metatype.definitions.annotations_2.0.2 [254]
+09:52:47,913 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.configuration.metatype.definitions.equinox_2.0.3 [255]
+09:52:47,914 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.configuration.module.configuration_2.0.3 [256]
+09:52:47,920 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.configuration.settings_2.0.3 [257]
+09:52:47,932 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.dao.orm.custom.sql_1.0.3 [258]
+09:52:47,933 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.executor_2.0.1 [259]
+09:52:47,946 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.init.servlet.filter_2.0.2 [260]
+09:52:47,959 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.instance.lifecycle_3.0.1 [261]
+09:52:47,966 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.instances.web_1.0.4 [262]
+09:52:47,980 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.jmx_3.0.1 [263]
+09:52:48,835 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.language.extender_2.0.2 [264]
+09:52:49,035 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.language.servlet.filter_2.0.2 [265]
+09:52:49,049 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.license.deployer_1.0.4 [266]
+09:52:49,051 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.lock.api_2.0.1 [267]
+09:52:49,052 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.lock.service_2.0.4 [268]
+09:52:49,094 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.messaging_3.0.1 [269]
+09:52:49,169 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.mobile.device.recognition.api_1.0.1 [270]
+09:52:49,186 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.monitoring_4.0.1 [271]
+09:52:49,218 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.output.stream.container_2.0.1 [272]
+09:52:49,225 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.pop.notifications_2.0.2 [273]
+09:52:49,231 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.portlet.bridge.soy_3.0.1 [274]
+09:52:49,233 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.remote.axis.extender_1.0.3 [275]
+09:52:49,291 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.remote.http.tunnel.extender_2.0.2 [278]
+09:52:49,293 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.remote.json.web.service.extender_2.0.2 [279]
+09:52:49,296 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.scheduler_3.0.1 [282]
+09:52:49,314 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.scheduler.quartz_2.0.4 [283]
+09:52:49,397 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.scheduler.single_2.0.2 [284]
+09:52:49,403 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.scripting.api_1.0.1 [285]
+09:52:49,416 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.scripting.executor_2.1.0 [286]
+09:52:49,431 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.scripting.groovy_2.0.2 [287]
+09:52:49,442 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.search_3.1.4 [288]
+09:52:50,151 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.search.elasticsearch_2.0.5 [289]
+09:52:50,538 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.search.facet_2.0.2 [290]
+09:52:50,541 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.search.web_1.1.6 [291]
+09:52:50,568 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.security.antisamy_2.0.2 [292]
+09:52:50,624 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.security.audit.api_2.0.1 [293]
+09:52:50,630 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.security.audit.wiring_2.0.1 [294]
+09:52:50,639 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.security.auth.verifier_2.0.2 [295]
+09:52:50,675 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.security.auto.login_2.0.3 [296]
+09:52:50,698 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.security.exportimport.api_2.0.1 [297]
+09:52:50,701 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.security.ldap_2.0.6 [298]
+09:52:50,811 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.security.service.access.policy.api_2.0.2 [299]
+09:52:50,819 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.security.service.access.policy.service_2.0.4 [300]
+09:52:50,840 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.security.service.access.policy.web_1.0.6 [301]
+09:52:50,849 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.security.sso.cas_3.0.3 [302]
+09:52:50,870 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.security.sso.facebook.connect_3.0.1 [303]
+09:52:50,903 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.security.sso.google_2.0.2 [304]
+09:52:50,918 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.security.sso.ntlm_3.0.2 [305]
+09:52:50,975 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.security.sso.openid_3.0.1 [306]
+09:52:50,998 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.security.sso.opensso_3.0.1 [307]
+09:52:51,028 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.security.sso.token_3.0.1 [308]
+09:52:51,069 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.settings.api_2.0.1 [309]
+09:52:51,072 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.settings.authentication.cas.web_1.0.3 [310]
+09:52:51,084 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.settings.authentication.facebook.connect.web_1.0.3 [311]
+09:52:51,096 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.settings.authentication.google.web_1.0.2 [312]
+09:52:51,106 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.settings.authentication.ldap.web_1.0.6 [313]
+09:52:51,124 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.settings.authentication.ntlm.web_1.0.3 [314]
+09:52:51,129 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.settings.authentication.openid.web_1.0.3 [315]
+09:52:51,137 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.settings.authentication.opensso.web_1.0.3 [316]
+09:52:51,145 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.settings.lang_1.0.2 [317]
+09:52:51,148 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.settings.web_1.0.7 [318]
+09:52:51,188 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.spring.extender_2.0.3 [319]
+09:52:51,194 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.store.cmis_2.0.2 [320]
+09:52:51,196 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.store.db_2.0.1 [321]
+09:52:51,206 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.store.file.system_2.0.1 [322]
+09:52:51,243 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.store.jcr_2.0.1 [323]
+09:52:51,250 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.store.s3_2.0.3 [324]
+09:52:51,256 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.store.safe.file.name.wrapper_1.0.1 [325]
+09:52:51,264 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.template.freemarker_2.0.9 [326]
+09:52:51,747 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.template.soy_2.0.3 [327]
+09:52:51,794 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.template.velocity_2.0.4 [328]
+09:52:51,851 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.template.xsl_2.0.2 [329]
+09:52:51,860 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.upgrade_2.4.1 [330]
+09:52:51,867 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.verify.extender_2.0.2 [331]
+09:52:51,871 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portal.weblogic.support_2.0.2 [332]
+09:52:51,875 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.roles.admin.api_2.0.1 [333]
+09:52:51,876 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.roles.admin.impl_1.0.4 [334]
+09:52:51,893 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.roles.admin.web_1.0.11 [335]
+09:52:51,931 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.roles.selector.web_1.0.5 [336]
+09:52:51,949 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.server.admin.web_1.0.8 [337]
+09:52:51,996 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.user.groups.admin.api_2.0.1 [338]
+09:52:51,997 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.user.groups.admin.impl_1.0.4 [339]
+09:52:52,020 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.user.groups.admin.web_1.0.7 [340]
+09:52:52,057 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.users.admin.api_2.0.1 [341]
+09:52:52,058 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.users.admin.impl_1.0.4 [342]
+09:52:52,079 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.users.admin.web_2.0.7 [343]
+09:52:52,210 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.web.proxy.web_1.0.4 [344]
+09:52:52,229 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.xstream.configurator.api_2.0.1 [345]
+09:52:52,231 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED stax2-api_3.1.4 [346]
+09:52:52,238 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED Liferay CE Foundation-admin-theme-wrapper_1.0.7 [347]
+09:52:52,242 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED Liferay CE Foundation-classic-theme-wrapper_1.0.9 [348]
+09:52:52,245 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED Liferay CE Foundation-product-app-theme-wrapper_1.0.7 [349]
+09:52:52,249 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED Liferay CE Foundation-user-dashboard-theme-wrapper_1.0.7 [350]
+09:52:52,252 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED Liferay CE Foundation-user-profile-theme-wrapper_1.0.7 [351]
+09:52:52,253 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED Liferay CE IP Geocoder_3.0.0 [352]
+09:52:52,256 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.ip.geocoder.sample.web_2.0.2 [353]
+09:52:52,263 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.ip.geocoder_2.0.5 [354]
+09:52:52,267 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.maxmind.geoip.api_1.2.14 [355]
+09:52:52,268 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED org.tukaani.xz_1.5.0 [356]
+09:52:52,269 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED Liferay CE Static_7.0.9 [357]
+09:52:52,270 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED Liferay CE Sync Connector_4.0.4 [358]
+09:52:52,271 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.sync.api_2.0.0 [359]
+09:52:52,279 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.sync.security_2.0.3 [360]
+09:52:52,286 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.sync.service_1.1.1 [361]
+09:52:52,307 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.sync.web_1.0.3 [362]
+09:52:52,318 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED Liferay CE Web Experience_7.0.6 [363]
+09:52:52,320 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.application.list.api_2.1.2 [364]
+09:52:52,354 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.application.list.taglib_2.0.5 [365]
+09:52:52,356 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.application.list.user.personal.site.permissions_2.0.3 [366]
+09:52:52,362 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.asset.browser.web_1.0.7 [367]
+09:52:52,377 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.asset.categories.admin.web_1.0.10 [368]
+09:52:52,394 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.asset.categories.navigation.web_1.0.5 [369]
+09:52:52,412 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.asset.categories.service_1.0.6 [370]
+09:52:52,423 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.asset.display.web_1.0.2 [371]
+09:52:52,441 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.asset.entry.query.processor.custom.user.attributes_2.0.3 [372]
+09:52:52,447 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.asset.publisher.layout.prototype_1.0.4 [373]
+09:52:52,455 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.asset.publisher.web_1.2.0 [374]
+09:52:52,698 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.asset.taglib_2.0.4 [375]
+09:52:52,703 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.asset.tags.admin.web_1.0.4 [376]
+09:52:52,708 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.asset.tags.compiler.web_2.0.2 [377]
+09:52:52,716 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.asset.tags.navigation.web_2.0.3 [378]
+09:52:52,740 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.asset.tags.service_2.0.2 [379]
+09:52:52,746 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.asset.web_2.0.2 [380]
+09:52:52,752 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.exportimport.api_2.1.0 [381]
+09:52:52,755 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.exportimport.resources.importer_1.2.0 [382]
+09:52:52,797 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.exportimport.service_3.0.3 [383]
+09:52:52,980 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.exportimport.web_1.0.11 [384]
+09:52:53,138 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.iframe.web_1.0.5 [385]
+09:52:53,149 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.journal.api_2.1.1 [386]
+09:52:53,150 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.journal.content.asset.addon.entry.comments_1.0.4 [387]
+09:52:53,157 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.journal.content.asset.addon.entry.common_2.0.3 [388]
+09:52:53,170 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.journal.content.asset.addon.entry.conversions_2.0.2 [389]
+09:52:53,175 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.journal.content.asset.addon.entry.locales_1.0.3 [390]
+09:52:53,178 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.journal.content.asset.addon.entry.print_2.0.2 [391]
+09:52:53,182 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.journal.content.asset.addon.entry.ratings_2.0.2 [392]
+09:52:53,185 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.journal.content.asset.addon.entry.related.assets_2.0.2 [393]
+09:52:53,190 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.journal.content.search.web_1.0.4 [394]
+09:52:53,211 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.journal.content.web_1.1.1 [395]
+09:52:53,241 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.journal.editor.configuration_1.0.2 [396]
+09:52:53,246 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.journal.item.selector.api_1.0.2 [397]
+09:52:53,252 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.journal.item.selector.web_1.0.3 [398]
+09:52:53,258 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.journal.lang_2.0.2 [399]
+09:52:53,260 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.journal.ratings.definition_2.0.2 [400]
+09:52:53,274 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.journal.service_3.1.0 [401]
+09:52:53,391 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.journal.terms.of.use_2.0.8 [402]
+09:52:53,398 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.journal.web_1.2.3 [403]
+09:52:53,568 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.layout.admin.web_1.0.12 [404]
+09:52:53,667 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.layout.impl_2.0.2 [405]
+09:52:53,680 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.layout.item.selector.api_1.0.2 [406]
+09:52:53,687 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.layout.item.selector.web_1.1.1 [407]
+09:52:53,691 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.layout.prototype.api_1.0.1 [408]
+09:52:53,693 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.layout.prototype.impl_1.0.3 [409]
+09:52:53,706 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.layout.prototype.web_1.0.7 [410]
+09:52:53,713 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.layout.set.prototype.api_1.0.2 [411]
+09:52:53,714 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.layout.set.prototype.impl_1.1.0 [412]
+09:52:53,727 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.layout.set.prototype.web_1.0.8 [413]
+09:52:53,749 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.layout.taglib_2.0.5 [414]
+09:52:53,752 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.layout.type.controller.control.panel_2.0.2 [415]
+09:52:53,766 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.layout.type.controller.full.page.application_2.0.2 [416]
+09:52:53,777 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.layout.type.controller.node_2.0.2 [417]
+09:52:53,784 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.layout.type.controller.shared.portlet_2.0.2 [418]
+09:52:53,793 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.nested.portlets.web_2.0.3 [419]
+09:52:53,803 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portlet.configuration.css.web_2.0.3 [420]
+09:52:53,883 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portlet.configuration.icon.close_2.0.2 [421]
+09:52:53,890 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portlet.configuration.icon.edit_2.0.2 [422]
+09:52:53,897 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portlet.configuration.icon.edit.defaults_2.0.2 [423]
+09:52:53,905 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portlet.configuration.icon.edit.guest_2.0.2 [424]
+09:52:53,912 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portlet.configuration.icon.help_2.0.2 [425]
+09:52:53,919 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portlet.configuration.icon.locator.api_2.0.2 [426]
+09:52:53,926 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portlet.configuration.icon.maximize_2.0.2 [427]
+09:52:53,936 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portlet.configuration.icon.minimize_2.0.2 [428]
+09:52:53,945 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portlet.configuration.icon.print_2.0.2 [429]
+09:52:53,953 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portlet.configuration.icon.refresh_2.0.2 [430]
+09:52:53,959 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portlet.configuration.sharing.web_2.0.3 [431]
+09:52:53,979 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portlet.configuration.toolbar.contributor.locator.api_2.0.2 [432]
+09:52:53,985 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portlet.configuration.web_1.0.7 [433]
+09:52:54,006 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portlet.display.template_2.0.2 [434]
+09:52:54,012 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.portlet.display.template.web_2.0.4 [435]
+09:52:54,019 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.product.navigation.control.menu.api_3.0.0 [436]
+09:52:54,037 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.product.navigation.control.menu.theme.contributor_2.0.3 [437]
+09:52:54,050 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.product.navigation.control.menu.web_2.0.5 [438]
+09:52:54,067 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.product.navigation.control.panel_2.0.2 [439]
+09:52:54,085 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.product.navigation.product.menu.theme.contributor_2.0.4 [440]
+09:52:54,104 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.product.navigation.product.menu.web_2.0.4 [441]
+09:52:54,119 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.product.navigation.simulation_2.0.1 [442]
+09:52:54,128 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.product.navigation.simulation.device_2.0.3 [443]
+09:52:54,133 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.product.navigation.simulation.theme.contributor_2.0.2 [444]
+09:52:54,135 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.product.navigation.simulation.web_2.1.0 [445]
+09:52:54,144 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.product.navigation.site.administration_2.0.2 [446]
+09:52:54,168 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.product.navigation.taglib_2.0.3 [447]
+09:52:54,172 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.product.navigation.user_2.0.2 [448]
+09:52:54,177 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.product.navigation.user.personal.bar.web_2.0.2 [449]
+09:52:54,188 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.rss.util_1.0.3 [450]
+09:52:54,194 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.rss.web_2.1.0 [451]
+09:52:54,224 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.site.admin.web_1.0.11 [452]
+09:52:54,292 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.site.api_2.0.3 [453]
+09:52:54,297 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.site.browser.web_2.0.6 [454]
+09:52:54,312 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.site.item.selector.api_1.0.2 [455]
+09:52:54,321 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.site.item.selector.web_2.0.5 [456]
+09:52:54,327 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.site.memberships.web_1.0.12 [457]
+09:52:54,371 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.site.my.sites.web_1.0.6 [458]
+09:52:54,387 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.site.navigation.breadcrumb.web_2.0.3 [459]
+09:52:54,420 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.site.navigation.directory.web_2.0.3 [460]
+09:52:54,440 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.site.navigation.language.web_2.1.0 [461]
+09:52:54,462 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.site.navigation.menu.web_2.0.4 [462]
+09:52:54,486 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.site.navigation.site.map.web_2.0.2 [463]
+09:52:54,503 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.site.navigation.taglib_2.0.4 [464]
+09:52:54,509 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.site.teams.web_1.0.10 [465]
+09:52:54,523 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.staging.api_2.0.1 [466]
+09:52:54,531 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.staging.bar.web_1.0.5 [467]
+09:52:54,573 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.staging.configuration.web_1.0.5 [468]
+09:52:54,592 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.staging.lang_2.0.4 [469]
+09:52:54,593 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.staging.portlet.data.handler_2.0.1 [470]
+09:52:54,603 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.staging.processes.web_1.0.6 [471]
+09:52:54,677 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.staging.security_2.0.5 [472]
+09:52:54,685 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.staging.taglib_3.1.5 [473]
+09:52:54,687 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.trash.taglib_2.0.3 [474]
+09:52:54,693 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.trash.web_1.0.7 [475]
+09:52:54,726 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED com.liferay.xsl.content.web_2.0.3 [476]
+09:52:54,744 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED Liferay Marketplace_6.0.0 [477]
+09:53:11,452 WARN  [localhost-startStop-1][EmbeddedElasticsearchConnection:249] Liferay is configured to use embedded Elasticsearch as its search engine. Do NOT use embedded Elasticsearch in production. Embedded Elasticsearch is useful for development and demonstration purposes. Remote Elasticsearch connections can be configured in the Control Panel.
+09:53:11,483 INFO  [localhost-startStop-1][node:137] [Timeshadow] version[2.2.0], pid[5346], build[8ff36d1/2016-01-27T13:32:39Z]
+09:53:11,484 INFO  [localhost-startStop-1][node:139] [Timeshadow] initializing ...
+09:53:11,620 INFO  [localhost-startStop-1][plugins:180] [Timeshadow] modules [], plugins [analysis-kuromoji, analysis-icu, analysis-smartcn, analysis-stempel], sites []
+09:53:11,644 INFO  [localhost-startStop-1][env:288] [Timeshadow] using [1] data paths, mounts [[/ (/dev/mapper/docker-202:16-17219589-b410206cff3e5ef2a593f60030b8b1efb599081eb987ed0378a46b3284403a34)]], net usable_space [12.3gb], net total_space [18.9gb], spins? [possibly], types [xfs]
+09:53:11,645 INFO  [localhost-startStop-1][env:303] [Timeshadow] heap size [974mb], compressed ordinary object pointers [unknown]
+09:53:13,731 INFO  [localhost-startStop-1][node:212] [Timeshadow] initialized
+09:53:13,732 INFO  [localhost-startStop-1][node:238] [Timeshadow] starting ...
+09:53:13,734 INFO  [localhost-startStop-1][transport:172] [Timeshadow] publish_address {local[1]}, bound_addresses {local[1]}
+09:53:13,749 INFO  [localhost-startStop-1][discovery:86] [Timeshadow] LiferayElasticsearchCluster/UlRDxIsuRnWo7IWkoToygA
+09:53:13,754 INFO  [elasticsearch[Timeshadow][clusterService#updateTask][T#1]][service:570] [Timeshadow] master {new {Timeshadow}{UlRDxIsuRnWo7IWkoToygA}{local}{local[1]}{local=true}}, removed {{Timeshadow}{Dvcd3UAiRSmfK6vOeeNPwg}{local}{local[1]}{local=true},}, reason: local-disco-initial_connect(master)
+09:53:13,832 INFO  [elasticsearch[Timeshadow][clusterService#updateTask][T#1]][gateway:277] [Timeshadow] recovered [0] indices into cluster_state
+09:53:13,848 INFO  [localhost-startStop-1][http:94] [Timeshadow] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}
+09:53:13,849 INFO  [localhost-startStop-1][node:274] [Timeshadow] started
+09:53:14,248 INFO  [elasticsearch[Timeshadow][clusterService#updateTask][T#1]][metadata:391] [Timeshadow] [liferay-0] creating index, cause [api], templates [], shards [1]/[0], mappings [KeywordQueryDocumentType, LiferayDocumentType, SpellCheckDocumentType]
+09:53:14,417 INFO  [elasticsearch[Timeshadow][clusterService#updateTask][T#1]][metadata:317] [Timeshadow] [liferay-0] update_mapping [LiferayDocumentType]
+09:53:14,515 INFO  [elasticsearch[Timeshadow][clusterService#updateTask][T#1]][allocation:238] [Timeshadow] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[liferay-0][0]] ...]).
+09:53:19,505 INFO  [localhost-startStop-1][StartupAction:118] There are no patches installed
+09:53:19,659 WARN  [localhost-startStop-1][ReleaseLocalServiceImpl:228] user lacks privilege or object not found: RELEASE_
+09:53:19,662 INFO  [localhost-startStop-1][ReleaseLocalServiceImpl:125] Create tables and populate with default data
+09:53:21,198 INFO  [localhost-startStop-1][BaseDB:498] Database supports case sensitive queries
+09:53:23,313 INFO  [localhost-startStop-1][VerifyProcess:64] Verifying com.liferay.portal.verify.VerifyProcessSuite
+09:53:23,317 INFO  [localhost-startStop-1][VerifyProcess:64] Verifying com.liferay.portal.verify.VerifyProperties
+09:53:23,320 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyProperties#verifySystemProperties
+09:53:23,321 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyProperties#verifySystemProperties in 1 ms
+09:53:23,321 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyProperties#verifyPortalProperties
+09:53:23,333 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyProperties#verifyPortalProperties in 12 ms
+09:53:23,335 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary
+09:53:23,336 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyProperties#verifyDocumentLibrary in 1 ms
+09:53:23,336 INFO  [localhost-startStop-1][VerifyProcess:79] Completed verification process com.liferay.portal.verify.VerifyProperties in 19ms
+09:53:23,337 INFO  [localhost-startStop-1][VerifyProcess:64] Verifying com.liferay.portal.verify.VerifyDB2
+09:53:23,338 INFO  [localhost-startStop-1][VerifyProcess:79] Completed verification process com.liferay.portal.verify.VerifyDB2 in 1ms
+09:53:23,339 INFO  [localhost-startStop-1][VerifyProcess:64] Verifying com.liferay.portal.verify.VerifyMySQL
+09:53:23,339 INFO  [localhost-startStop-1][VerifyProcess:79] Completed verification process com.liferay.portal.verify.VerifyMySQL in 0ms
+09:53:23,340 INFO  [localhost-startStop-1][VerifyProcess:64] Verifying com.liferay.portal.verify.VerifyOracle
+09:53:23,341 INFO  [localhost-startStop-1][VerifyProcess:79] Completed verification process com.liferay.portal.verify.VerifyOracle in 1ms
+09:53:23,343 INFO  [localhost-startStop-1][VerifyProcess:64] Verifying com.liferay.portal.verify.VerifySQLServer
+09:53:23,343 INFO  [localhost-startStop-1][VerifyProcess:79] Completed verification process com.liferay.portal.verify.VerifySQLServer in 0ms
+09:53:23,344 INFO  [localhost-startStop-1][VerifyProcess:64] Verifying com.liferay.portal.verify.VerifyUUID
+09:53:23,355 INFO  [pool-8-thread-1][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:53:23,356 INFO  [pool-8-thread-3][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:53:23,355 INFO  [pool-8-thread-2][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:53:23,356 INFO  [pool-8-thread-3][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyUUID#verifyUUID#DLFileVersion
+09:53:23,356 INFO  [pool-8-thread-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyUUID#verifyUUID#Address
+09:53:23,357 INFO  [pool-8-thread-6][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:53:23,356 INFO  [pool-8-thread-4][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:53:23,373 INFO  [pool-8-thread-4][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyUUID#verifyUUID#Group_
+09:53:23,372 INFO  [pool-8-thread-6][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyUUID#verifyUUID#LayoutPrototype
+09:53:23,372 INFO  [pool-8-thread-7][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:53:23,376 INFO  [pool-8-thread-7][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyUUID#verifyUUID#LayoutSetPrototype
+09:53:23,367 INFO  [pool-8-thread-11][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:53:23,378 INFO  [pool-8-thread-11][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyUUID#verifyUUID#MBThread
+09:53:23,367 INFO  [pool-8-thread-10][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:53:23,367 INFO  [pool-8-thread-9][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:53:23,387 INFO  [pool-8-thread-9][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyUUID#verifyUUID#MBBan
+09:53:23,366 INFO  [pool-8-thread-8][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:53:23,357 INFO  [pool-8-thread-5][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:53:23,388 INFO  [pool-8-thread-5][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyUUID#verifyUUID#EmailAddress
+09:53:23,357 INFO  [pool-8-thread-2][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyUUID#verifyUUID#AssetTag
+09:53:23,387 INFO  [pool-8-thread-8][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyUUID#verifyUUID#Layout
+09:53:23,386 INFO  [pool-8-thread-10][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyUUID#verifyUUID#MBDiscussion
+09:53:23,386 INFO  [pool-8-thread-20][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:53:23,386 INFO  [pool-8-thread-19][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:53:23,390 INFO  [pool-8-thread-19][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyUUID#verifyUUID#UserGroup
+09:53:23,386 INFO  [pool-8-thread-18][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:53:23,386 INFO  [pool-8-thread-17][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:53:23,386 INFO  [pool-8-thread-16][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:53:23,391 INFO  [pool-8-thread-16][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyUUID#verifyUUID#RatingsEntry
+09:53:23,385 INFO  [pool-8-thread-15][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:53:23,391 INFO  [pool-8-thread-15][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyUUID#verifyUUID#Phone
+09:53:23,385 INFO  [pool-8-thread-14][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:53:23,392 INFO  [pool-8-thread-14][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyUUID#verifyUUID#PasswordPolicy
+09:53:23,380 INFO  [pool-8-thread-12][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:53:23,393 INFO  [pool-8-thread-12][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyUUID#verifyUUID#MBThreadFlag
+09:53:23,380 INFO  [pool-8-thread-13][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:53:23,393 INFO  [pool-8-thread-13][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyUUID#verifyUUID#Organization_
+09:53:23,392 INFO  [pool-8-thread-17][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyUUID#verifyUUID#Role_
+09:53:23,390 INFO  [pool-8-thread-18][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyUUID#verifyUUID#Team
+09:53:23,389 INFO  [pool-8-thread-20][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyUUID#verifyUUID#Website
+09:53:23,410 INFO  [pool-8-thread-19][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyUUID#verifyUUID#UserGroup in 20 ms
+09:53:23,411 INFO  [pool-8-thread-3][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyUUID#verifyUUID#DLFileVersion in 55 ms
+09:53:23,411 INFO  [pool-8-thread-3][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 55 ms
+09:53:23,410 INFO  [pool-8-thread-13][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyUUID#verifyUUID#Organization_ in 17 ms
+09:53:23,411 INFO  [pool-8-thread-18][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyUUID#verifyUUID#Team in 21 ms
+09:53:23,410 INFO  [pool-8-thread-15][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyUUID#verifyUUID#Phone in 19 ms
+09:53:23,412 INFO  [pool-8-thread-15][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 27 ms
+09:53:23,413 INFO  [pool-8-thread-5][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyUUID#verifyUUID#EmailAddress in 25 ms
+09:53:23,413 INFO  [pool-8-thread-5][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 56 ms
+09:53:23,413 INFO  [pool-8-thread-18][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 27 ms
+09:53:23,410 INFO  [pool-8-thread-17][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyUUID#verifyUUID#Role_ in 18 ms
+09:53:23,413 INFO  [pool-8-thread-17][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 27 ms
+09:53:23,413 INFO  [pool-8-thread-11][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyUUID#verifyUUID#MBThread in 35 ms
+09:53:23,414 INFO  [pool-8-thread-11][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 47 ms
+09:53:23,412 INFO  [pool-8-thread-7][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyUUID#verifyUUID#LayoutSetPrototype in 36 ms
+09:53:23,414 INFO  [pool-8-thread-7][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 42 ms
+09:53:23,411 INFO  [pool-8-thread-13][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 31 ms
+09:53:23,411 INFO  [pool-8-thread-12][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyUUID#verifyUUID#MBThreadFlag in 18 ms
+09:53:23,415 INFO  [pool-8-thread-12][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 35 ms
+09:53:23,411 INFO  [pool-8-thread-14][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyUUID#verifyUUID#PasswordPolicy in 19 ms
+09:53:23,415 INFO  [pool-8-thread-14][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 30 ms
+09:53:23,411 INFO  [pool-8-thread-16][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyUUID#verifyUUID#RatingsEntry in 20 ms
+09:53:23,416 INFO  [pool-8-thread-16][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 30 ms
+09:53:23,411 INFO  [pool-8-thread-20][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyUUID#verifyUUID#Website in 22 ms
+09:53:23,416 INFO  [pool-8-thread-20][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 30 ms
+09:53:23,411 INFO  [pool-8-thread-19][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 25 ms
+09:53:23,418 INFO  [pool-8-thread-10][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyUUID#verifyUUID#MBDiscussion in 32 ms
+09:53:23,419 INFO  [pool-8-thread-10][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 52 ms
+09:53:23,419 INFO  [pool-8-thread-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyUUID#verifyUUID#Address in 63 ms
+09:53:23,419 INFO  [pool-8-thread-1][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 64 ms
+09:53:23,419 INFO  [pool-8-thread-6][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyUUID#verifyUUID#LayoutPrototype in 47 ms
+09:53:23,419 INFO  [pool-8-thread-6][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 62 ms
+09:53:23,420 INFO  [pool-8-thread-8][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyUUID#verifyUUID#Layout in 33 ms
+09:53:23,420 INFO  [pool-8-thread-8][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 54 ms
+09:53:23,419 INFO  [pool-8-thread-4][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyUUID#verifyUUID#Group_ in 46 ms
+09:53:23,422 INFO  [pool-8-thread-4][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 66 ms
+09:53:23,421 INFO  [pool-8-thread-2][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyUUID#verifyUUID#AssetTag in 64 ms
+09:53:23,421 INFO  [pool-8-thread-9][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyUUID#verifyUUID#MBBan in 34 ms
+09:53:23,422 INFO  [pool-8-thread-9][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 55 ms
+09:53:23,422 INFO  [pool-8-thread-2][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 67 ms
+09:53:23,423 INFO  [localhost-startStop-1][VerifyProcess:79] Completed verification process com.liferay.portal.verify.VerifyUUID in 79ms
+09:53:23,425 INFO  [localhost-startStop-1][VerifyProcess:64] Verifying com.liferay.portal.verify.VerifyPermission
+09:53:23,426 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyPermission#deleteDefaultPrivateLayoutPermissions
+09:53:23,430 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyPermission#deleteDefaultPrivateLayoutPermissions in 4 ms
+09:53:23,431 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyPermission#checkPermissions
+09:53:26,152 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyPermission#checkPermissions in 2721 ms
+09:53:26,153 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyPermission#fixOrganizationRolePermissions
+09:53:26,238 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyPermission#fixOrganizationRolePermissions in 85 ms
+09:53:26,239 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyPermission#fixUserDefaultRolePermissions
+09:53:26,240 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyPermission#fixUserDefaultRolePermissions in 1 ms
+09:53:26,243 INFO  [localhost-startStop-1][VerifyProcess:79] Completed verification process com.liferay.portal.verify.VerifyPermission in 2818ms
+09:53:26,246 INFO  [localhost-startStop-1][VerifyProcess:64] Verifying com.liferay.portal.verify.VerifyGroup
+09:53:26,247 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyGroup#verifyCompanyGroups
+09:53:26,274 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyGroup#verifyCompanyGroups in 27 ms
+09:53:26,275 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyGroup#verifyNullFriendlyURLGroups
+09:53:26,427 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyGroup#verifyNullFriendlyURLGroups in 152 ms
+09:53:26,427 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyGroup#verifyOrganizationNames
+09:53:26,432 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyGroup#verifyOrganizationNames in 5 ms
+09:53:26,432 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyGroup#verifyRobots
+09:53:26,485 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyGroup#verifyRobots in 53 ms
+09:53:26,486 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyGroup#verifySites
+09:53:26,517 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyGroup#verifySites in 31 ms
+09:53:26,518 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyGroup#verifyStagedGroups
+09:53:26,520 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyGroup#verifyStagedGroups in 2 ms
+09:53:26,520 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyGroup#verifyTree
+09:53:26,521 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyGroup#verifyTree in 1 ms
+09:53:26,521 INFO  [localhost-startStop-1][VerifyProcess:79] Completed verification process com.liferay.portal.verify.VerifyGroup in 275ms
+09:53:26,522 INFO  [localhost-startStop-1][VerifyProcess:64] Verifying com.liferay.portal.verify.VerifyRole
+09:53:26,556 INFO  [localhost-startStop-1][VerifyProcess:79] Completed verification process com.liferay.portal.verify.VerifyRole in 34ms
+09:53:26,557 INFO  [localhost-startStop-1][VerifyProcess:64] Verifying com.liferay.portal.verify.VerifyAsset
+09:53:26,558 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyAsset#deleteOrphanedAssetEntries
+09:53:26,560 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyAsset#deleteOrphanedAssetEntries in 2 ms
+09:53:26,564 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyAsset#rebuildTree
+09:53:26,566 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyAsset#rebuildTree in 2 ms
+09:53:26,566 INFO  [localhost-startStop-1][VerifyProcess:79] Completed verification process com.liferay.portal.verify.VerifyAsset in 9ms
+09:53:26,569 INFO  [localhost-startStop-1][VerifyProcess:64] Verifying com.liferay.portal.verify.VerifyAuditedModel
+09:53:26,586 INFO  [pool-9-thread-1][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:53:26,588 INFO  [pool-9-thread-4][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:53:26,586 INFO  [pool-9-thread-3][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:53:26,586 INFO  [pool-9-thread-2][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:53:26,590 INFO  [pool-9-thread-8][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:53:26,591 INFO  [pool-9-thread-8][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyAuditedModel#verifyAuditedModel#Organization_
+09:53:26,591 INFO  [pool-9-thread-11][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:53:26,592 INFO  [pool-9-thread-11][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyAuditedModel#verifyAuditedModel#UserGroup
+09:53:26,590 INFO  [pool-9-thread-7][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:53:26,589 INFO  [pool-9-thread-6][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:53:26,588 INFO  [pool-9-thread-5][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:53:26,603 INFO  [pool-9-thread-5][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyAuditedModel#verifyAuditedModel#MBDiscussion
+09:53:26,604 INFO  [pool-9-thread-5][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyAuditedModel#verifyAuditedModel#MBDiscussion in 1 ms
+09:53:26,605 INFO  [pool-9-thread-5][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 17 ms
+09:53:26,588 INFO  [pool-9-thread-4][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyAuditedModel#verifyAuditedModel#Layout
+09:53:26,588 INFO  [pool-9-thread-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyAuditedModel#verifyAuditedModel#LayoutFriendlyURL
+09:53:26,606 INFO  [pool-9-thread-4][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyAuditedModel#verifyAuditedModel#Layout in 18 ms
+09:53:26,607 INFO  [pool-9-thread-4][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 19 ms
+09:53:26,603 INFO  [pool-9-thread-7][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyAuditedModel#verifyAuditedModel#MBThreadFlag
+09:53:26,603 INFO  [pool-9-thread-6][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyAuditedModel#verifyAuditedModel#MBThread
+09:53:26,609 INFO  [pool-9-thread-6][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyAuditedModel#verifyAuditedModel#MBThread in 6 ms
+09:53:26,610 INFO  [pool-9-thread-6][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 21 ms
+09:53:26,610 INFO  [pool-9-thread-7][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyAuditedModel#verifyAuditedModel#MBThreadFlag in 7 ms
+09:53:26,610 INFO  [pool-9-thread-7][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 20 ms
+09:53:26,611 INFO  [pool-9-thread-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyAuditedModel#verifyAuditedModel#LayoutFriendlyURL in 23 ms
+09:53:26,611 INFO  [pool-9-thread-1][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 26 ms
+09:53:26,603 INFO  [pool-9-thread-8][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyAuditedModel#verifyAuditedModel#Organization_ in 12 ms
+09:53:26,602 INFO  [pool-9-thread-3][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyAuditedModel#verifyAuditedModel#LayoutSetPrototype
+09:53:26,613 INFO  [pool-9-thread-3][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyAuditedModel#verifyAuditedModel#LayoutSetPrototype in 11 ms
+09:53:26,613 INFO  [pool-9-thread-3][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 27 ms
+09:53:26,591 INFO  [pool-9-thread-10][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:53:26,591 INFO  [pool-9-thread-9][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:53:26,614 INFO  [pool-9-thread-9][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyAuditedModel#verifyAuditedModel#RepositoryEntry
+09:53:26,614 INFO  [pool-9-thread-9][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyAuditedModel#verifyAuditedModel#RepositoryEntry in 0 ms
+09:53:26,614 INFO  [pool-9-thread-9][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 23 ms
+09:53:26,590 INFO  [pool-9-thread-2][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyAuditedModel#verifyAuditedModel#LayoutPrototype
+09:53:26,615 INFO  [pool-9-thread-2][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyAuditedModel#verifyAuditedModel#LayoutPrototype in 25 ms
+09:53:26,615 INFO  [pool-9-thread-2][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 29 ms
+09:53:26,616 INFO  [pool-9-thread-10][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyAuditedModel#verifyAuditedModel#Role_
+09:53:26,616 INFO  [pool-9-thread-10][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyAuditedModel#verifyAuditedModel#Role_ in 0 ms
+09:53:26,616 INFO  [pool-9-thread-10][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 25 ms
+09:53:26,617 INFO  [pool-9-thread-8][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 27 ms
+09:53:26,620 INFO  [pool-9-thread-11][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyAuditedModel#verifyAuditedModel#UserGroup in 28 ms
+09:53:26,620 INFO  [pool-9-thread-11][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 29 ms
+09:53:26,620 INFO  [localhost-startStop-1][VerifyProcess:79] Completed verification process com.liferay.portal.verify.VerifyAuditedModel in 51ms
+09:53:26,621 INFO  [localhost-startStop-1][VerifyProcess:64] Verifying com.liferay.portal.verify.VerifyBlogs
+09:53:26,622 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyBlogs#updateEntryAssets
+09:53:26,627 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyBlogs#updateEntryAssets in 5 ms
+09:53:26,628 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyBlogs#verifyStatus
+09:53:26,629 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyBlogs#verifyStatus in 1 ms
+09:53:26,629 INFO  [localhost-startStop-1][VerifyProcess:79] Completed verification process com.liferay.portal.verify.VerifyBlogs in 8ms
+09:53:26,630 INFO  [localhost-startStop-1][VerifyProcess:64] Verifying com.liferay.portal.verify.VerifyGroupedModel
+09:53:26,635 INFO  [pool-10-thread-1][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:53:26,635 INFO  [pool-10-thread-2][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:53:26,636 INFO  [pool-10-thread-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyGroupedModel#verifyGroupedModel#MBDiscussion
+09:53:26,636 INFO  [pool-10-thread-2][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyGroupedModel#verifyGroupedModel#MBThreadFlag
+09:53:26,637 INFO  [pool-10-thread-2][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyGroupedModel#verifyGroupedModel#MBThreadFlag in 1 ms
+09:53:26,637 INFO  [pool-10-thread-2][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 2 ms
+09:53:26,637 INFO  [pool-10-thread-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyGroupedModel#verifyGroupedModel#MBDiscussion in 1 ms
+09:53:26,638 INFO  [pool-10-thread-1][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 3 ms
+09:53:26,638 INFO  [localhost-startStop-1][VerifyProcess:79] Completed verification process com.liferay.portal.verify.VerifyGroupedModel in 8ms
+09:53:26,639 INFO  [localhost-startStop-1][VerifyProcess:64] Verifying com.liferay.portal.verify.VerifyLayout
+09:53:26,640 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyLayout#deleteLinkedOrphanedLayouts
+09:53:26,641 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyLayout#deleteLinkedOrphanedLayouts in 1 ms
+09:53:26,642 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyLayout#updateUnlinkedOrphanedLayouts
+09:53:26,643 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyLayout#updateUnlinkedOrphanedLayouts in 1 ms
+09:53:26,643 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyLayout#verifyFriendlyURL
+09:53:26,674 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyLayout#verifyFriendlyURL in 31 ms
+09:53:26,674 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyLayout#verifyLayoutIdFriendlyURL
+09:53:26,677 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyLayout#verifyLayoutIdFriendlyURL in 3 ms
+09:53:26,677 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyLayout#verifyLayoutPrototypeLinkEnabled
+09:53:26,678 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyLayout#verifyLayoutPrototypeLinkEnabled in 1 ms
+09:53:26,679 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyLayout#verifyUuid
+09:53:26,680 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyLayout#verifyUuid in 1 ms
+09:53:26,680 INFO  [localhost-startStop-1][VerifyProcess:79] Completed verification process com.liferay.portal.verify.VerifyLayout in 41ms
+09:53:26,681 INFO  [localhost-startStop-1][VerifyProcess:64] Verifying com.liferay.portal.verify.VerifyMessageBoards
+09:53:26,682 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyMessageBoards#verifyStatisticsForCategories
+09:53:26,689 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyMessageBoards#verifyStatisticsForCategories in 7 ms
+09:53:26,690 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyMessageBoards#verifyStatisticsForThreads
+09:53:26,697 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyMessageBoards#verifyStatisticsForThreads in 7 ms
+09:53:26,698 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyMessageBoards#verifyAssetsForMessages
+09:53:26,705 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyMessageBoards#verifyAssetsForMessages in 7 ms
+09:53:26,706 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyMessageBoards#verifyAssetsForThreads
+09:53:26,708 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyMessageBoards#verifyAssetsForThreads in 2 ms
+09:53:26,708 INFO  [localhost-startStop-1][VerifyProcess:79] Completed verification process com.liferay.portal.verify.VerifyMessageBoards in 27ms
+09:53:26,709 INFO  [localhost-startStop-1][VerifyProcess:64] Verifying com.liferay.portal.verify.VerifyOrganization
+09:53:26,711 INFO  [pool-11-thread-1][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:53:26,712 INFO  [pool-11-thread-2][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:53:26,712 INFO  [pool-11-thread-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyOrganization#rebuildTree
+09:53:26,712 INFO  [pool-11-thread-3][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:53:26,712 INFO  [pool-11-thread-2][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyOrganization#updateOrganizationAssets
+09:53:26,712 INFO  [pool-11-thread-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyOrganization#rebuildTree in 0 ms
+09:53:26,713 INFO  [pool-11-thread-1][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 2 ms
+09:53:26,712 INFO  [pool-11-thread-3][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyOrganization#updateOrganizationAssetEntries
+09:53:26,715 INFO  [pool-11-thread-3][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyOrganization#updateOrganizationAssetEntries in 3 ms
+09:53:26,715 INFO  [pool-11-thread-3][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 3 ms
+09:53:26,717 INFO  [pool-11-thread-2][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyOrganization#updateOrganizationAssets in 5 ms
+09:53:26,718 INFO  [pool-11-thread-2][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 6 ms
+09:53:26,718 INFO  [localhost-startStop-1][VerifyProcess:79] Completed verification process com.liferay.portal.verify.VerifyOrganization in 9ms
+09:53:26,718 INFO  [localhost-startStop-1][VerifyProcess:64] Verifying com.liferay.portal.verify.VerifyRatings
+09:53:26,719 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyRatings#normalizeRatingStats
+09:53:26,721 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyRatings#normalizeRatingStats in 2 ms
+09:53:26,722 INFO  [localhost-startStop-1][VerifyProcess:79] Completed verification process com.liferay.portal.verify.VerifyRatings in 4ms
+09:53:26,723 INFO  [localhost-startStop-1][VerifyProcess:64] Verifying com.liferay.portal.verify.VerifyResourcePermissions
+09:53:26,728 INFO  [localhost-startStop-1][VerifyProcess:79] Completed verification process com.liferay.portal.verify.VerifyResourcePermissions in 5ms
+09:53:26,728 INFO  [localhost-startStop-1][VerifyProcess:64] Verifying com.liferay.portal.verify.VerifySocial
+09:53:26,733 INFO  [localhost-startStop-1][VerifyProcess:79] Completed verification process com.liferay.portal.verify.VerifySocial in 5ms
+09:53:26,734 INFO  [localhost-startStop-1][VerifyProcess:64] Verifying com.liferay.portal.verify.VerifyUser
+09:53:26,735 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyUser#verifyInactive
+09:53:26,748 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyUser#verifyInactive in 13 ms
+09:53:26,749 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyUser#verifyNoContacts
+09:53:26,758 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyUser#verifyNoContacts in 9 ms
+09:53:26,759 INFO  [localhost-startStop-1][VerifyProcess:79] Completed verification process com.liferay.portal.verify.VerifyUser in 25ms
+09:53:26,764 INFO  [localhost-startStop-1][VerifyProcess:64] Verifying com.liferay.portal.verify.VerifyWorkflow
+09:53:26,765 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyWorkflow#deleteOrphaned
+09:53:26,817 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyWorkflow#deleteOrphaned in 52 ms
+09:53:26,820 INFO  [localhost-startStop-1][VerifyProcess:79] Completed verification process com.liferay.portal.verify.VerifyWorkflow in 56ms
+09:53:26,821 INFO  [localhost-startStop-1][VerifyProcess:79] Completed verification process com.liferay.portal.verify.VerifyProcessSuite in 3508ms
+09:53:26,879 INFO  [localhost-startStop-1][PluginPackageUtil:1003] Reading plugin package for the root context
+09:53:28,226 INFO  [localhost-startStop-1][AutoDeployDir:160] Creating missing directory /home/travis/build/liferay-labs/arquillian-blade-example/liferay/liferay-ce-portal-7.0-ga3/deploy
+09:53:28,228 INFO  [localhost-startStop-1][AutoDeployDir:185] Auto deploy scanner started for /home/travis/build/liferay-labs/arquillian-blade-example/liferay/liferay-ce-portal-7.0-ga3/deploy
+09:53:29,566 INFO  [elasticsearch[Timeshadow][clusterService#updateTask][T#1]][metadata:391] [Timeshadow] [liferay-20116] creating index, cause [api], templates [], shards [1]/[0], mappings [KeywordQueryDocumentType, LiferayDocumentType, SpellCheckDocumentType]
+09:53:29,700 INFO  [elasticsearch[Timeshadow][clusterService#updateTask][T#1]][metadata:317] [Timeshadow] [liferay-20116] update_mapping [LiferayDocumentType]
+09:53:29,721 INFO  [elasticsearch[Timeshadow][clusterService#updateTask][T#1]][allocation:238] [Timeshadow] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[liferay-20116][0]] ...]).
+09:53:35,221 INFO  [localhost-startStop-1][BaseAutoDeployListener:42] Copying themes for /home/travis/build/liferay-labs/arquillian-blade-example/liferay/liferay-ce-portal-7.0-ga3/tomcat-8.0.32/temp/20170505095335081BGBEPOAX/admin-theme.war
+09:53:35,297 INFO  [localhost-startStop-1][BaseDeployer:873] Deploying admin-theme.war
+09:53:36,421 INFO  [localhost-startStop-1][BaseAutoDeployListener:50] Themes for /home/travis/build/liferay-labs/arquillian-blade-example/liferay/liferay-ce-portal-7.0-ga3/tomcat-8.0.32/temp/20170505095335081BGBEPOAX/admin-theme.war copied successfully
+09:53:37,895 INFO  [Start Level: Equinox Container: d0e93442-7831-0017-1d62-b56ef9e389d2][BundleStartStopLogger:35] STARTED admin-theme_1.0.7 [483]
+09:53:37,940 INFO  [localhost-startStop-1][BaseAutoDeployListener:42] Copying themes for /home/travis/build/liferay-labs/arquillian-blade-example/liferay/liferay-ce-portal-7.0-ga3/tomcat-8.0.32/temp/20170505095337897CKLZWBCO/product-app-theme.war
+09:53:37,964 INFO  [localhost-startStop-1][BaseDeployer:873] Deploying product-app-theme.war
+09:53:38,767 INFO  [localhost-startStop-1][BaseAutoDeployListener:50] Themes for /home/travis/build/liferay-labs/arquillian-blade-example/liferay/liferay-ce-portal-7.0-ga3/tomcat-8.0.32/temp/20170505095337897CKLZWBCO/product-app-theme.war copied successfully
+09:53:39,738 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED product-app-theme_1.0.7 [484]
+09:53:39,754 INFO  [localhost-startStop-1][BaseAutoDeployListener:42] Copying themes for /home/travis/build/liferay-labs/arquillian-blade-example/liferay/liferay-ce-portal-7.0-ga3/tomcat-8.0.32/temp/20170505095339740MXOMLNSX/user-dashboard-theme.war
+09:53:39,779 INFO  [localhost-startStop-1][BaseDeployer:873] Deploying user-dashboard-theme.war
+09:53:40,528 INFO  [localhost-startStop-1][BaseAutoDeployListener:50] Themes for /home/travis/build/liferay-labs/arquillian-blade-example/liferay/liferay-ce-portal-7.0-ga3/tomcat-8.0.32/temp/20170505095339740MXOMLNSX/user-dashboard-theme.war copied successfully
+09:53:41,494 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED user-dashboard-theme_1.0.7 [485]
+09:53:41,532 INFO  [localhost-startStop-1][BaseAutoDeployListener:42] Copying themes for /home/travis/build/liferay-labs/arquillian-blade-example/liferay/liferay-ce-portal-7.0-ga3/tomcat-8.0.32/temp/20170505095341495BXPUKDZH/classic-theme.war
+09:53:41,557 INFO  [localhost-startStop-1][BaseDeployer:873] Deploying classic-theme.war
+09:53:42,103 INFO  [localhost-startStop-1][BaseAutoDeployListener:50] Themes for /home/travis/build/liferay-labs/arquillian-blade-example/liferay/liferay-ce-portal-7.0-ga3/tomcat-8.0.32/temp/20170505095341495BXPUKDZH/classic-theme.war copied successfully
+09:53:43,032 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED classic-theme_1.0.9 [486]
+09:53:43,053 INFO  [localhost-startStop-1][BaseAutoDeployListener:42] Copying themes for /home/travis/build/liferay-labs/arquillian-blade-example/liferay/liferay-ce-portal-7.0-ga3/tomcat-8.0.32/temp/20170505095343034GDCDBZXH/user-profile-theme.war
+09:53:43,078 INFO  [localhost-startStop-1][BaseDeployer:873] Deploying user-profile-theme.war
+09:53:43,719 INFO  [localhost-startStop-1][BaseAutoDeployListener:50] Themes for /home/travis/build/liferay-labs/arquillian-blade-example/liferay/liferay-ce-portal-7.0-ga3/tomcat-8.0.32/temp/20170505095343034GDCDBZXH/user-profile-theme.war copied successfully
+09:53:45,073 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED user-profile-theme_1.0.7 [487]
+09:53:45,242 INFO  [localhost-startStop-1][UpgradeProcess:82] Upgrading com.liferay.announcements.web.internal.upgrade.AnnouncementsWebUpgrade$1
+09:53:45,243 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.kernel.upgrade.BaseUpgradePortletId#upgradeInstanceablePortletIds
+09:53:45,264 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.kernel.upgrade.BaseUpgradePortletId#upgradeInstanceablePortletIds in 20 ms
+09:53:45,264 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.kernel.upgrade.BaseUpgradePortletId#upgradeUninstanceablePortletIds
+09:53:45,265 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.kernel.upgrade.BaseUpgradePortletId#upgradeUninstanceablePortletIds in 1 ms
+09:53:45,265 INFO  [localhost-startStop-1][UpgradeProcess:97] Completed upgrade process com.liferay.announcements.web.internal.upgrade.AnnouncementsWebUpgrade$1 in 23ms
+09:53:45,370 INFO  [localhost-startStop-1][UpgradeProcess:82] Upgrading com.liferay.directory.web.internal.upgrade.v1_0_0.UpgradePortletId
+09:53:45,371 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.kernel.upgrade.BaseUpgradePortletId#upgradeInstanceablePortletIds
+09:53:45,385 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.kernel.upgrade.BaseUpgradePortletId#upgradeInstanceablePortletIds in 14 ms
+09:53:45,386 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.kernel.upgrade.BaseUpgradePortletId#upgradeUninstanceablePortletIds
+09:53:45,386 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.kernel.upgrade.BaseUpgradePortletId#upgradeUninstanceablePortletIds in 0 ms
+09:53:45,387 INFO  [localhost-startStop-1][UpgradeProcess:97] Completed upgrade process com.liferay.directory.web.internal.upgrade.v1_0_0.UpgradePortletId in 17ms
+09:53:45,514 INFO  [localhost-startStop-1][UpgradeProcess:82] Upgrading com.liferay.microblogs.web.internal.upgrade.v1_0_0.UpgradePortletId
+09:53:45,515 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.kernel.upgrade.BaseUpgradePortletId#upgradeInstanceablePortletIds
+09:53:45,522 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.kernel.upgrade.BaseUpgradePortletId#upgradeInstanceablePortletIds in 7 ms
+09:53:45,523 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.kernel.upgrade.BaseUpgradePortletId#upgradeUninstanceablePortletIds
+09:53:45,523 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.kernel.upgrade.BaseUpgradePortletId#upgradeUninstanceablePortletIds in 0 ms
+09:53:45,523 INFO  [localhost-startStop-1][UpgradeProcess:97] Completed upgrade process com.liferay.microblogs.web.internal.upgrade.v1_0_0.UpgradePortletId in 9ms
+09:53:45,626 INFO  [localhost-startStop-1][UpgradeProcess:82] Upgrading com.liferay.recent.documents.web.internal.upgrade.v1_0_0.UpgradePortletId
+09:53:45,627 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.kernel.upgrade.BaseUpgradePortletId#upgradeInstanceablePortletIds
+09:53:45,631 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.kernel.upgrade.BaseUpgradePortletId#upgradeInstanceablePortletIds in 4 ms
+09:53:45,632 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.kernel.upgrade.BaseUpgradePortletId#upgradeUninstanceablePortletIds
+09:53:45,633 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.kernel.upgrade.BaseUpgradePortletId#upgradeUninstanceablePortletIds in 1 ms
+09:53:45,633 INFO  [localhost-startStop-1][UpgradeProcess:97] Completed upgrade process com.liferay.recent.documents.web.internal.upgrade.v1_0_0.UpgradePortletId in 7ms
+09:53:45,716 INFO  [localhost-startStop-1][UpgradeProcess:82] Upgrading com.liferay.social.privatemessaging.web.internal.upgrade.v1_0_0.UpgradePortletId
+09:53:45,717 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.kernel.upgrade.BaseUpgradePortletId#upgradeInstanceablePortletIds
+09:53:45,721 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.kernel.upgrade.BaseUpgradePortletId#upgradeInstanceablePortletIds in 4 ms
+09:53:45,722 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.kernel.upgrade.BaseUpgradePortletId#upgradeUninstanceablePortletIds
+09:53:45,722 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.kernel.upgrade.BaseUpgradePortletId#upgradeUninstanceablePortletIds in 0 ms
+09:53:45,723 INFO  [localhost-startStop-1][UpgradeProcess:97] Completed upgrade process com.liferay.social.privatemessaging.web.internal.upgrade.v1_0_0.UpgradePortletId in 7ms
+09:53:45,783 INFO  [localhost-startStop-1][UpgradeProcess:82] Upgrading com.liferay.calendar.web.internal.upgrade.v1_0_1.UpgradePortletPreferences
+09:53:45,784 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.kernel.upgrade.BaseUpgradePortletPreferences#updatePortletPreferences
+09:53:45,791 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.kernel.upgrade.BaseUpgradePortletPreferences#updatePortletPreferences in 7 ms
+09:53:45,792 INFO  [localhost-startStop-1][UpgradeProcess:97] Completed upgrade process com.liferay.calendar.web.internal.upgrade.v1_0_1.UpgradePortletPreferences in 9ms
+09:53:45,834 INFO  [localhost-startStop-1][UpgradeProcess:82] Upgrading com.liferay.contacts.web.internal.upgrade.v1_0_0.UpgradePortletId
+09:53:45,835 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.kernel.upgrade.BaseUpgradePortletId#upgradeInstanceablePortletIds
+09:53:45,846 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.kernel.upgrade.BaseUpgradePortletId#upgradeInstanceablePortletIds in 11 ms
+09:53:45,847 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.kernel.upgrade.BaseUpgradePortletId#upgradeUninstanceablePortletIds
+09:53:45,848 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.kernel.upgrade.BaseUpgradePortletId#upgradeUninstanceablePortletIds in 1 ms
+09:53:45,848 INFO  [localhost-startStop-1][UpgradeProcess:97] Completed upgrade process com.liferay.contacts.web.internal.upgrade.v1_0_0.UpgradePortletId in 15ms
+09:53:46,482 INFO  [liferay/scheduler_dispatch-1][PluginPackageUtil:1267] Reloading repositories
+09:53:48,077 INFO  [localhost-startStop-1][ServiceComponentLocalServiceImpl:317] Running Bookmarks SQL scripts
+09:53:48,467 INFO  [localhost-startStop-1][ServiceComponentLocalServiceImpl:317] Running Flags SQL scripts
+09:53:48,745 INFO  [localhost-startStop-1][ServiceComponentLocalServiceImpl:317] Running IM SQL scripts
+09:53:49,046 INFO  [localhost-startStop-1][ServiceComponentLocalServiceImpl:317] Running Microblogs SQL scripts
+09:53:49,357 INFO  [localhost-startStop-1][ServiceComponentLocalServiceImpl:317] Running PM SQL scripts
+09:53:50,026 INFO  [localhost-startStop-1][ServiceComponentLocalServiceImpl:317] Running Wiki SQL scripts
+09:53:51,220 INFO  [localhost-startStop-1][ServiceComponentLocalServiceImpl:317] Running Calendar SQL scripts
+09:53:51,894 INFO  [localhost-startStop-1][ServiceComponentLocalServiceImpl:317] Running Polls SQL scripts
+09:53:53,156 INFO  [localhost-startStop-1][ServiceComponentLocalServiceImpl:317] Running Kaleo SQL scripts
+09:53:54,024 INFO  [localhost-startStop-1][ServiceComponentLocalServiceImpl:317] Running Contacts SQL scripts
+09:53:54,627 INFO  [localhost-startStop-1][ServiceComponentLocalServiceImpl:317] Running MDR SQL scripts
+09:53:55,116 INFO  [localhost-startStop-1][ServiceComponentLocalServiceImpl:317] Running BackgroundTask SQL scripts
+09:53:55,403 INFO  [localhost-startStop-1][ServiceComponentLocalServiceImpl:317] Running Lock SQL scripts
+09:53:57,156 INFO  [localhost-startStop-1][ServiceComponentLocalServiceImpl:317] Running DDM SQL scripts
+09:53:58,149 INFO  [localhost-startStop-1][ServiceComponentLocalServiceImpl:317] Running DDL SQL scripts
+09:54:00,964 INFO  [elasticsearch[Timeshadow][clusterService#updateTask][T#1]][metadata:317] [Timeshadow] [liferay-0] update_mapping [LiferayDocumentType]
+09:54:00,986 INFO  [elasticsearch[Timeshadow][clusterService#updateTask][T#1]][metadata:317] [Timeshadow] [liferay-0] update_mapping [LiferayDocumentType]
+09:54:01,848 TRACE [elasticsearch[Timeshadow][bulk][T#1]][index:158] took[849.4ms], took_millis[849], type[LiferayDocumentType], id[com_liferay_configuration_admin_web_portlet_SystemSettingsPortlet_PORTLET_com.liferay.portal.osgi.web.wab.extender.internal.configuration.WabExtenderConfiguration], routing[] , source[{"uid":"com_liferay_configuration_admin_web_portlet_SystemSettingsPortlet_PORTLET_com.liferay.portal.osgi.web.wab.extender.internal.configuration.WabExtenderConfiguration","companyId":"0","configurationModelId":"com.liferay.portal.osgi.web.wab.extender.internal.configuration.WabExtenderConfiguration","entryClassName":"com.liferay.configuration.admin.web.internal.model.ConfigurationModel","configurationModelFactoryPid":"com.liferay.portal.osgi.web.wab.extender.internal.configuration.WabExtenderConfiguration","title_zh_CN":"WAB扩展器","title_es_ES":"Extensor WAB","title_ja_JP":"WAB Extender","title_iw_IL":"WAB Extender","title_nl_NL":"WAB-verlenger","title_fi_FI":"WAB Extender -laite","title_ca_ES":"Estensor WAB","title_hu_HU":"WAB bővítő","title_fr_FR":"Extendeur WAB","title":"WAB Extender","title_en_US":"WAB Extender","title_pt_BR":"Extensor WAB","title_de_DE":"WAB Extender","configurationModelAttributeName":"Stop timeout"}]
+09:54:02,954 INFO  [localhost-startStop-1][ServiceComponentLocalServiceImpl:317] Running SAP SQL scripts
+09:54:04,315 INFO  [localhost-startStop-1][ServiceComponentLocalServiceImpl:317] Running Sync SQL scripts
+09:54:07,754 INFO  [localhost-startStop-1][ServiceComponentLocalServiceImpl:317] Running Journal SQL scripts
+09:54:08,807 INFO  [localhost-startStop-1][ServiceComponentLocalServiceImpl:317] Running Marketplace SQL scripts
+09:54:11,542 INFO  [localhost-startStop-1][UpgradeProcess:82] Upgrading com.liferay.wiki.navigation.web.internal.upgrade.WikiNavigationWebUpgrade$1
+09:54:11,546 INFO  [localhost-startStop-1][UpgradeProcess:97] Completed upgrade process com.liferay.wiki.navigation.web.internal.upgrade.WikiNavigationWebUpgrade$1 in 4ms
+09:54:11,792 INFO  [localhost-startStop-1][VerifyProcess:64] Verifying com.liferay.portal.scheduler.internal.verify.SchedulerHelperPropertiesVerifyProcess
+09:54:11,794 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.scheduler.internal.verify.SchedulerHelperPropertiesVerifyProcess#upgradeConfiguration
+09:54:11,794 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.scheduler.internal.verify.SchedulerHelperPropertiesVerifyProcess#upgradeConfiguration in 0 ms
+09:54:11,795 INFO  [localhost-startStop-1][VerifyProcess:79] Completed verification process com.liferay.portal.scheduler.internal.verify.SchedulerHelperPropertiesVerifyProcess in 3ms
+09:54:11,806 INFO  [localhost-startStop-1][VerifyProcess:64] Verifying com.liferay.portal.security.sso.token.internal.verify.ShibbolethCompanySettingsVerifyProcess
+09:54:11,807 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.BaseCompanySettingsVerifyProcess#verifyProperties
+09:54:11,810 INFO  [localhost-startStop-1][BaseCompanySettingsVerifyProcess:109] Removing preference keys [shibboleth.auth.enabled, shibboleth.import.from.ldap, shibboleth.logout.url, shibboleth.user.header] for company 20116
+09:54:11,818 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.BaseCompanySettingsVerifyProcess#verifyProperties in 11 ms
+09:54:11,819 INFO  [localhost-startStop-1][VerifyProcess:79] Completed verification process com.liferay.portal.security.sso.token.internal.verify.ShibbolethCompanySettingsVerifyProcess in 13ms
+09:54:11,822 INFO  [localhost-startStop-1][VerifyProcess:64] Verifying com.liferay.portal.security.sso.token.internal.verify.SiteMinderCompanySettingsVerifyProcess
+09:54:11,823 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.BaseCompanySettingsVerifyProcess#verifyProperties
+09:54:11,824 INFO  [localhost-startStop-1][BaseCompanySettingsVerifyProcess:109] Removing preference keys [siteminder.auth.enabled, siteminder.import.from.ldap, siteminder.user.header] for company 20116
+09:54:11,826 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.BaseCompanySettingsVerifyProcess#verifyProperties in 3 ms
+09:54:11,826 INFO  [localhost-startStop-1][VerifyProcess:79] Completed verification process com.liferay.portal.security.sso.token.internal.verify.SiteMinderCompanySettingsVerifyProcess in 4ms
+09:54:11,830 INFO  [localhost-startStop-1][VerifyProcess:64] Verifying com.liferay.portal.security.sso.opensso.internal.verify.OpenSSOCompanySettingsVerifyProcess
+09:54:11,831 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.BaseCompanySettingsVerifyProcess#verifyProperties
+09:54:11,847 INFO  [localhost-startStop-1][BaseCompanySettingsVerifyProcess:109] Removing preference keys [open.sso.last.name.attr, open.sso.auth.enabled, open.sso.ldap.import.enabled, open.sso.email.address.attr, open.sso.service.url, open.sso.first.name.attr, open.sso.login.url, open.sso.logout.url, open.sso.screen.name.attr, open.sso.logout.on.session.expiration] for company 20116
+09:54:11,849 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.BaseCompanySettingsVerifyProcess#verifyProperties in 18 ms
+09:54:11,850 INFO  [localhost-startStop-1][VerifyProcess:79] Completed verification process com.liferay.portal.security.sso.opensso.internal.verify.OpenSSOCompanySettingsVerifyProcess in 20ms
+09:54:11,854 INFO  [localhost-startStop-1][VerifyProcess:64] Verifying com.liferay.portal.security.sso.openid.internal.verify.OpenIdCompanySettingsVerifyProcess
+09:54:11,855 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.BaseCompanySettingsVerifyProcess#verifyProperties
+09:54:11,860 INFO  [localhost-startStop-1][BaseCompanySettingsVerifyProcess:109] Removing preference keys [openid.auth.enabled] for company 20116
+09:54:11,862 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.BaseCompanySettingsVerifyProcess#verifyProperties in 7 ms
+09:54:11,862 INFO  [localhost-startStop-1][VerifyProcess:79] Completed verification process com.liferay.portal.security.sso.openid.internal.verify.OpenIdCompanySettingsVerifyProcess in 8ms
+09:54:11,865 INFO  [localhost-startStop-1][VerifyProcess:64] Verifying com.liferay.portal.security.sso.facebook.connect.internal.verify.FacebookConnectCompanySettingsVerifyProcess
+09:54:11,866 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.BaseCompanySettingsVerifyProcess#verifyProperties
+09:54:11,876 INFO  [localhost-startStop-1][BaseCompanySettingsVerifyProcess:109] Removing preference keys [facebook.connect.app.secret, facebook.connect.graph.url, facebook.connect.oauth.auth.url, facebook.connect.app.id, facebook.connect.oauth.redirect.url, facebook.connect.oauth.token.url, facebook.auth.enabled, facebook.connect.verified.account.required] for company 20116
+09:54:11,879 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.BaseCompanySettingsVerifyProcess#verifyProperties in 13 ms
+09:54:11,879 INFO  [localhost-startStop-1][VerifyProcess:79] Completed verification process com.liferay.portal.security.sso.facebook.connect.internal.verify.FacebookConnectCompanySettingsVerifyProcess in 14ms
+09:54:11,886 INFO  [localhost-startStop-1][VerifyProcess:64] Verifying com.liferay.portal.security.sso.cas.internal.verify.CASCompanySettingsVerifyProcess
+09:54:11,888 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.BaseCompanySettingsVerifyProcess#verifyProperties
+09:54:11,896 INFO  [localhost-startStop-1][BaseCompanySettingsVerifyProcess:109] Removing preference keys [cas.logout.url, cas.no.such.user.redirect.url, cas.server.name, cas.server.url, cas.service.url, cas.import.from.ldap, cas,logout.on.session.expiration, cas.auth.enabled, cas.login.url] for company 20116
+09:54:11,898 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.BaseCompanySettingsVerifyProcess#verifyProperties in 10 ms
+09:54:11,899 INFO  [localhost-startStop-1][VerifyProcess:79] Completed verification process com.liferay.portal.security.sso.cas.internal.verify.CASCompanySettingsVerifyProcess in 13ms
+09:54:11,903 INFO  [localhost-startStop-1][VerifyProcess:64] Verifying com.liferay.portal.security.sso.google.internal.verify.GoogleLoginCompanySettingsVerifyProcess
+09:54:11,903 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.BaseCompanySettingsVerifyProcess#verifyProperties
+09:54:11,913 INFO  [localhost-startStop-1][BaseCompanySettingsVerifyProcess:109] Removing preference keys [google-auth-enabled, google-client-id, google-client-secret] for company 20116
+09:54:11,915 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.BaseCompanySettingsVerifyProcess#verifyProperties in 12 ms
+09:54:11,917 INFO  [localhost-startStop-1][VerifyProcess:79] Completed verification process com.liferay.portal.security.sso.google.internal.verify.GoogleLoginCompanySettingsVerifyProcess in 14ms
+09:54:11,924 INFO  [localhost-startStop-1][VerifyProcess:64] Verifying com.liferay.portal.security.sso.ntlm.internal.verify.NtlmCompanySettingsVerifyProcess
+09:54:11,925 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.BaseCompanySettingsVerifyProcess#verifyProperties
+09:54:11,932 INFO  [localhost-startStop-1][BaseCompanySettingsVerifyProcess:109] Removing preference keys [ntlm.auth.enabled, ntlm.auth.domain.controller.name, ntlm.auth.domain, ntlm.auth.domain.controller, ntlm.auth.service.account, ntlm.auth.service.password, ntlm.auth.negotiate.flags] for company 20116
+09:54:11,937 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.BaseCompanySettingsVerifyProcess#verifyProperties in 11 ms
+09:54:11,937 INFO  [localhost-startStop-1][VerifyProcess:79] Completed verification process com.liferay.portal.security.sso.ntlm.internal.verify.NtlmCompanySettingsVerifyProcess in 13ms
+09:54:11,942 INFO  [localhost-startStop-1][VerifyProcess:64] Verifying com.liferay.portal.security.ldap.internal.verify.LDAPPropertiesVerifyProcess
+09:54:11,944 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.security.ldap.internal.verify.LDAPPropertiesVerifyProcess#verifyLDAPProperties
+09:54:11,988 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.security.ldap.internal.verify.LDAPPropertiesVerifyProcess#verifyLDAPProperties in 44 ms
+09:54:11,989 INFO  [localhost-startStop-1][VerifyProcess:79] Completed verification process com.liferay.portal.security.ldap.internal.verify.LDAPPropertiesVerifyProcess in 47ms
+09:54:12,001 INFO  [localhost-startStop-1][VerifyProcess:64] Verifying com.liferay.bookmarks.verify.BookmarksServiceVerifyProcess
+09:54:12,002 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.bookmarks.verify.BookmarksServiceVerifyProcess#updateEntryAssets
+09:54:12,008 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.bookmarks.verify.BookmarksServiceVerifyProcess#updateEntryAssets in 6 ms
+09:54:12,009 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.bookmarks.verify.BookmarksServiceVerifyProcess#updateFolderAssets
+09:54:12,011 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.bookmarks.verify.BookmarksServiceVerifyProcess#updateFolderAssets in 2 ms
+09:54:12,011 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.bookmarks.verify.BookmarksServiceVerifyProcess#verifyTree
+09:54:12,051 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.bookmarks.verify.BookmarksServiceVerifyProcess#verifyTree in 40 ms
+09:54:12,052 INFO  [localhost-startStop-1][VerifyProcess:79] Completed verification process com.liferay.bookmarks.verify.BookmarksServiceVerifyProcess in 51ms
+09:54:12,057 INFO  [localhost-startStop-1][VerifyProcess:64] Verifying com.liferay.wiki.verify.WikiServiceVerifyProcess
+09:54:12,057 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.wiki.verify.WikiServiceVerifyProcess#verifyCreateDate
+09:54:12,065 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.wiki.verify.WikiServiceVerifyProcess#verifyCreateDate in 8 ms
+09:54:12,065 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.wiki.verify.WikiServiceVerifyProcess#verifyNoAssetPages
+09:54:12,073 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.wiki.verify.WikiServiceVerifyProcess#verifyNoAssetPages in 8 ms
+09:54:12,074 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.wiki.verify.WikiServiceVerifyProcess#verifyResourcedModels
+09:54:12,077 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:54:12,077 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyResourcePermissions#verifyResourcedModel#WikiNode
+09:54:12,078 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyResourcePermissions#verifyResourcedModel#WikiNode in 1 ms
+09:54:12,079 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 2 ms
+09:54:12,079 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyResourcePermissions#verifyLayout
+09:54:12,084 INFO  [localhost-startStop-1][VerifyResourcePermissions:120] Processed 0 of 3 resource permissions for company = 20116 and model com.liferay.portal.kernel.model.Layout
+09:54:12,102 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyResourcePermissions#verifyLayout in 23 ms
+09:54:12,104 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:54:12,104 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyResourcePermissions#verifyResourcedModel#WikiPage
+09:54:12,105 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyResourcePermissions#verifyResourcedModel#WikiPage in 1 ms
+09:54:12,105 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 1 ms
+09:54:12,106 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyResourcePermissions#verifyLayout
+09:54:12,108 INFO  [localhost-startStop-1][VerifyResourcePermissions:120] Processed 0 of 3 resource permissions for company = 20116 and model com.liferay.portal.kernel.model.Layout
+09:54:12,110 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyResourcePermissions#verifyLayout in 4 ms
+09:54:12,111 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.wiki.verify.WikiServiceVerifyProcess#verifyResourcedModels in 37 ms
+09:54:12,111 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.wiki.verify.WikiServiceVerifyProcess#verifyUUIDModels
+09:54:12,112 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:54:12,112 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyUUID#verifyUUID#WikiPageResource
+09:54:12,113 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyUUID#verifyUUID#WikiPageResource in 1 ms
+09:54:12,113 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 1 ms
+09:54:12,114 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.wiki.verify.WikiServiceVerifyProcess#verifyUUIDModels in 3 ms
+09:54:12,114 INFO  [localhost-startStop-1][VerifyProcess:79] Completed verification process com.liferay.wiki.verify.WikiServiceVerifyProcess in 58ms
+09:54:12,118 INFO  [localhost-startStop-1][VerifyProcess:64] Verifying com.liferay.polls.internal.verify.PollsServiceVerifyProcess
+09:54:12,119 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.polls.internal.verify.PollsServiceVerifyProcess#verifyAuditedModels
+09:54:12,121 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:54:12,122 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyAuditedModel#verifyAuditedModel#PollsChoice
+09:54:12,122 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyAuditedModel#verifyAuditedModel#PollsChoice in 0 ms
+09:54:12,123 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 2 ms
+09:54:12,124 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:54:12,124 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyAuditedModel#verifyAuditedModel#PollsVote
+09:54:12,125 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyAuditedModel#verifyAuditedModel#PollsVote in 1 ms
+09:54:12,125 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 1 ms
+09:54:12,125 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.polls.internal.verify.PollsServiceVerifyProcess#verifyAuditedModels in 6 ms
+09:54:12,126 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.polls.internal.verify.PollsServiceVerifyProcess#verifyResourcedModels
+09:54:12,127 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:54:12,127 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyResourcePermissions#verifyResourcedModel#PollsQuestion
+09:54:12,128 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyResourcePermissions#verifyResourcedModel#PollsQuestion in 1 ms
+09:54:12,128 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 1 ms
+09:54:12,128 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyResourcePermissions#verifyLayout
+09:54:12,130 INFO  [localhost-startStop-1][VerifyResourcePermissions:120] Processed 0 of 3 resource permissions for company = 20116 and model com.liferay.portal.kernel.model.Layout
+09:54:12,130 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyResourcePermissions#verifyLayout in 2 ms
+09:54:12,131 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.polls.internal.verify.PollsServiceVerifyProcess#verifyResourcedModels in 5 ms
+09:54:12,131 INFO  [localhost-startStop-1][VerifyProcess:79] Completed verification process com.liferay.polls.internal.verify.PollsServiceVerifyProcess in 13ms
+09:54:12,136 INFO  [localhost-startStop-1][VerifyProcess:64] Verifying com.liferay.mobile.device.rules.internal.verify.MDRServiceVerifyProcess
+09:54:12,138 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:54:12,139 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyResourcePermissions#verifyResourcedModel#MDRRuleGroupInstance
+09:54:12,139 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyResourcePermissions#verifyResourcedModel#MDRRuleGroupInstance in 0 ms
+09:54:12,140 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 2 ms
+09:54:12,140 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyResourcePermissions#verifyLayout
+09:54:12,142 INFO  [localhost-startStop-1][VerifyResourcePermissions:120] Processed 0 of 3 resource permissions for company = 20116 and model com.liferay.portal.kernel.model.Layout
+09:54:12,143 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyResourcePermissions#verifyLayout in 3 ms
+09:54:12,145 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:54:12,145 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyResourcePermissions#verifyResourcedModel#MDRRuleGroup
+09:54:12,146 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyResourcePermissions#verifyResourcedModel#MDRRuleGroup in 1 ms
+09:54:12,146 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 1 ms
+09:54:12,147 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyResourcePermissions#verifyLayout
+09:54:12,159 INFO  [localhost-startStop-1][VerifyResourcePermissions:120] Processed 0 of 3 resource permissions for company = 20116 and model com.liferay.portal.kernel.model.Layout
+09:54:12,160 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyResourcePermissions#verifyLayout in 12 ms
+09:54:12,160 INFO  [localhost-startStop-1][VerifyProcess:79] Completed verification process com.liferay.mobile.device.rules.internal.verify.MDRServiceVerifyProcess in 24ms
+09:54:12,168 INFO  [localhost-startStop-1][VerifyProcess:64] Verifying com.liferay.dynamic.data.mapping.verify.DDMServiceVerifyProcess
+09:54:12,169 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.dynamic.data.mapping.verify.DDMServiceVerifyProcess#verifyStructures
+09:54:12,337 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.dynamic.data.mapping.verify.DDMServiceVerifyProcess#verifyStructures in 168 ms
+09:54:12,338 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.dynamic.data.mapping.verify.DDMServiceVerifyProcess#verifyStructureLinks
+09:54:12,340 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.dynamic.data.mapping.verify.DDMServiceVerifyProcess#verifyStructureLinks in 2 ms
+09:54:12,341 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.dynamic.data.mapping.verify.DDMServiceVerifyProcess#verifyTemplateLinks
+09:54:12,343 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.dynamic.data.mapping.verify.DDMServiceVerifyProcess#verifyTemplateLinks in 2 ms
+09:54:12,343 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.dynamic.data.mapping.verify.DDMServiceVerifyProcess#verifyContents
+09:54:12,350 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.dynamic.data.mapping.verify.DDMServiceVerifyProcess#verifyContents in 7 ms
+09:54:12,350 INFO  [localhost-startStop-1][VerifyProcess:79] Completed verification process com.liferay.dynamic.data.mapping.verify.DDMServiceVerifyProcess in 182ms
+09:54:12,356 INFO  [localhost-startStop-1][VerifyProcess:64] Verifying com.liferay.document.library.verify.DLServiceVerifyProcess
+09:54:12,357 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.document.library.verify.DLServiceVerifyProcess#checkMisversionedDLFileEntries
+09:54:12,363 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.document.library.verify.DLServiceVerifyProcess#checkMisversionedDLFileEntries in 6 ms
+09:54:12,364 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.document.library.verify.DLServiceVerifyProcess#checkDLFileEntryType
+09:54:12,396 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.document.library.verify.DLServiceVerifyProcess#checkDLFileEntryType in 32 ms
+09:54:12,397 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.document.library.verify.DLServiceVerifyProcess#checkDLFileEntryMetadata
+09:54:12,400 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.document.library.verify.DLServiceVerifyProcess#checkDLFileEntryMetadata in 3 ms
+09:54:12,401 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.document.library.verify.DLServiceVerifyProcess#checkMimeTypes
+09:54:12,405 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.document.library.verify.DLServiceVerifyProcess#checkMimeTypes in 5 ms
+09:54:12,406 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.document.library.verify.DLServiceVerifyProcess#checkTitles
+09:54:12,409 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.document.library.verify.DLServiceVerifyProcess#checkTitles in 3 ms
+09:54:12,410 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.document.library.verify.DLServiceVerifyProcess#deleteOrphanedDLFileEntries
+09:54:12,411 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.document.library.verify.DLServiceVerifyProcess#deleteOrphanedDLFileEntries in 1 ms
+09:54:12,412 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.document.library.verify.DLServiceVerifyProcess#updateClassNameId
+09:54:12,412 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.document.library.verify.DLServiceVerifyProcess#updateClassNameId in 0 ms
+09:54:12,413 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.document.library.verify.DLServiceVerifyProcess#updateFileEntryAssets
+09:54:12,415 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.document.library.verify.DLServiceVerifyProcess#updateFileEntryAssets in 2 ms
+09:54:12,415 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.document.library.verify.DLServiceVerifyProcess#updateFolderAssets
+09:54:12,418 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.document.library.verify.DLServiceVerifyProcess#updateFolderAssets in 3 ms
+09:54:12,419 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.document.library.verify.DLServiceVerifyProcess#verifyTree
+09:54:12,449 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.document.library.verify.DLServiceVerifyProcess#verifyTree in 30 ms
+09:54:12,450 INFO  [localhost-startStop-1][VerifyProcess:79] Completed verification process com.liferay.document.library.verify.DLServiceVerifyProcess in 94ms
+09:54:12,456 INFO  [localhost-startStop-1][VerifyProcess:64] Verifying com.liferay.portal.security.service.access.policy.internal.verify.SAPServiceVerifyProcess
+09:54:12,457 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.security.service.access.policy.internal.verify.SAPServiceVerifyProcess#verifyDefaultSAPEntry
+09:54:12,475 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.security.service.access.policy.internal.verify.SAPServiceVerifyProcess#verifyDefaultSAPEntry in 18 ms
+09:54:12,476 INFO  [localhost-startStop-1][VerifyProcess:79] Completed verification process com.liferay.portal.security.service.access.policy.internal.verify.SAPServiceVerifyProcess in 20ms
+09:54:12,488 INFO  [localhost-startStop-1][VerifyProcess:64] Verifying com.liferay.journal.verify.JournalServiceVerifyProcess
+09:54:12,489 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.journal.verify.JournalServiceVerifyProcess#verifyArticleAssets
+09:54:12,503 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.journal.verify.JournalServiceVerifyProcess#verifyArticleAssets in 14 ms
+09:54:12,503 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.journal.verify.JournalServiceVerifyProcess#verifyArticleContents
+09:54:12,504 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.journal.verify.JournalServiceVerifyProcess#verifyArticleContents in 1 ms
+09:54:12,504 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.journal.verify.JournalServiceVerifyProcess#verifyArticleExpirationDate
+09:54:12,505 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.journal.verify.JournalServiceVerifyProcess#verifyArticleExpirationDate in 1 ms
+09:54:12,505 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.journal.verify.JournalServiceVerifyProcess#verifyArticleLayouts
+09:54:12,506 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.journal.verify.JournalServiceVerifyProcess#verifyArticleLayouts in 1 ms
+09:54:12,507 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.journal.verify.JournalServiceVerifyProcess#verifyArticleStructures
+09:54:12,509 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.journal.verify.JournalServiceVerifyProcess#verifyArticleStructures in 2 ms
+09:54:12,509 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.journal.verify.JournalServiceVerifyProcess#verifyContentSearch
+09:54:12,510 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.journal.verify.JournalServiceVerifyProcess#verifyContentSearch in 1 ms
+09:54:12,510 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.journal.verify.JournalServiceVerifyProcess#verifyFolderAssets
+09:54:12,512 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.journal.verify.JournalServiceVerifyProcess#verifyFolderAssets in 2 ms
+09:54:12,513 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.journal.verify.JournalServiceVerifyProcess#verifyOracleNewLine
+09:54:12,513 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.journal.verify.JournalServiceVerifyProcess#verifyOracleNewLine in 0 ms
+09:54:12,514 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.journal.verify.JournalServiceVerifyProcess#verifyPermissions
+09:54:12,515 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.journal.verify.JournalServiceVerifyProcess#verifyPermissions in 1 ms
+09:54:12,515 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.journal.verify.JournalServiceVerifyProcess#verifyResourcedModels
+09:54:12,517 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:54:12,517 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyResourcePermissions#verifyResourcedModel#JournalArticle
+09:54:12,518 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyResourcePermissions#verifyResourcedModel#JournalArticle in 1 ms
+09:54:12,518 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 1 ms
+09:54:12,518 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyResourcePermissions#verifyLayout
+09:54:12,520 INFO  [localhost-startStop-1][VerifyResourcePermissions:120] Processed 0 of 3 resource permissions for company = 20116 and model com.liferay.portal.kernel.model.Layout
+09:54:12,521 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyResourcePermissions#verifyLayout in 3 ms
+09:54:12,522 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:54:12,522 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyResourcePermissions#verifyResourcedModel#JournalFeed
+09:54:12,523 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyResourcePermissions#verifyResourcedModel#JournalFeed in 1 ms
+09:54:12,523 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 1 ms
+09:54:12,524 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyResourcePermissions#verifyLayout
+09:54:12,525 INFO  [localhost-startStop-1][VerifyResourcePermissions:120] Processed 0 of 3 resource permissions for company = 20116 and model com.liferay.portal.kernel.model.Layout
+09:54:12,525 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyResourcePermissions#verifyLayout in 1 ms
+09:54:12,526 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.journal.verify.JournalServiceVerifyProcess#verifyResourcedModels in 11 ms
+09:54:12,526 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.journal.verify.JournalServiceVerifyProcess#verifyTree
+09:54:12,546 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.journal.verify.JournalServiceVerifyProcess#verifyTree in 20 ms
+09:54:12,547 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.journal.verify.JournalServiceVerifyProcess#verifyURLTitle
+09:54:12,548 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.journal.verify.JournalServiceVerifyProcess#verifyURLTitle in 1 ms
+09:54:12,549 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.journal.verify.JournalServiceVerifyProcess#verifyUUIDModels
+09:54:12,549 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:54:12,550 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyUUID#verifyUUID#JournalArticleResource
+09:54:12,550 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyUUID#verifyUUID#JournalArticleResource in 0 ms
+09:54:12,551 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 2 ms
+09:54:12,551 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run
+09:54:12,552 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.portal.verify.VerifyUUID#verifyUUID#JournalFeed
+09:54:12,552 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.verify.VerifyUUID#verifyUUID#JournalFeed in 0 ms
+09:54:12,552 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.portal.kernel.concurrent.ThrowableAwareRunnable#run in 1 ms
+09:54:12,553 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.journal.verify.JournalServiceVerifyProcess#verifyUUIDModels in 4 ms
+09:54:12,553 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.journal.verify.JournalServiceVerifyProcess#verifyArticleImages
+09:54:12,553 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.journal.verify.JournalServiceVerifyProcess#verifyArticleImages in 0 ms
+09:54:12,554 INFO  [localhost-startStop-1][VerifyProcess:64] Verifying com.liferay.journal.verify.JournalServiceSystemEventVerifyProcess
+09:54:12,554 INFO  [localhost-startStop-1][LoggingTimer:70] Starting com.liferay.journal.verify.JournalServiceSystemEventVerifyProcess#verifyJournalArticleDeleteSystemEvents
+09:54:12,558 INFO  [localhost-startStop-1][LoggingTimer:38] Completed com.liferay.journal.verify.JournalServiceSystemEventVerifyProcess#verifyJournalArticleDeleteSystemEvents in 4 ms
+09:54:12,558 INFO  [localhost-startStop-1][VerifyProcess:79] Completed verification process com.liferay.journal.verify.JournalServiceSystemEventVerifyProcess in 4ms
+09:54:12,558 INFO  [localhost-startStop-1][VerifyProcess:79] Completed verification process com.liferay.journal.verify.JournalServiceVerifyProcess in 70ms
+09:54:24,972 INFO  [localhost-startStop-1][HotDeployImpl:226] Deploying admin-theme from queue
+09:54:24,974 INFO  [localhost-startStop-1][PluginPackageUtil:1006] Reading plugin package for admin-theme
+09:54:25,020 INFO  [localhost-startStop-1][ThemeHotDeployListener:94] Registering themes for admin-theme
+09:54:25,022 INFO  [elasticsearch[Timeshadow][clusterService#updateTask][T#1]][metadata:317] [Timeshadow] [liferay-0] update_mapping [LiferayDocumentType]
+09:54:26,397 INFO  [localhost-startStop-1][ThemeHotDeployListener:109] 1 theme for admin-theme is available for use
+09:54:26,723 INFO  [localhost-startStop-1][HotDeployImpl:226] Deploying product-app-theme from queue
+09:54:26,723 INFO  [localhost-startStop-1][PluginPackageUtil:1006] Reading plugin package for product-app-theme
+09:54:26,731 INFO  [localhost-startStop-1][ThemeHotDeployListener:94] Registering themes for product-app-theme
+09:54:27,540 INFO  [localhost-startStop-1][ThemeHotDeployListener:109] 1 theme for product-app-theme is available for use
+09:54:27,835 INFO  [elasticsearch[Timeshadow][clusterService#updateTask][T#1]][metadata:317] [Timeshadow] [liferay-20116] update_mapping [LiferayDocumentType]
+09:54:27,944 INFO  [elasticsearch[Timeshadow][clusterService#updateTask][T#1]][metadata:317] [Timeshadow] [liferay-20116] update_mapping [LiferayDocumentType]
+09:54:27,952 INFO  [localhost-startStop-1][HotDeployImpl:226] Deploying user-dashboard-theme from queue
+09:54:27,952 INFO  [localhost-startStop-1][PluginPackageUtil:1006] Reading plugin package for user-dashboard-theme
+09:54:27,990 INFO  [localhost-startStop-1][ThemeHotDeployListener:94] Registering themes for user-dashboard-theme
+09:54:28,733 INFO  [localhost-startStop-1][ThemeHotDeployListener:109] 1 theme for user-dashboard-theme is available for use
+09:54:29,047 INFO  [localhost-startStop-1][HotDeployImpl:226] Deploying classic-theme from queue
+09:54:29,048 INFO  [localhost-startStop-1][PluginPackageUtil:1006] Reading plugin package for classic-theme
+09:54:29,056 INFO  [localhost-startStop-1][ThemeHotDeployListener:94] Registering themes for classic-theme
+09:54:29,669 INFO  [localhost-startStop-1][ThemeHotDeployListener:109] 1 theme for classic-theme is available for use
+09:54:29,946 INFO  [localhost-startStop-1][HotDeployImpl:226] Deploying user-profile-theme from queue
+09:54:29,946 INFO  [localhost-startStop-1][PluginPackageUtil:1006] Reading plugin package for user-profile-theme
+09:54:29,954 INFO  [localhost-startStop-1][ThemeHotDeployListener:94] Registering themes for user-profile-theme
+09:54:30,641 INFO  [localhost-startStop-1][ThemeHotDeployListener:109] 1 theme for user-profile-theme is available for use
