@@ -1,0 +1,45 @@
+06-May-2017 11:00:33.690 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.32
+06-May-2017 11:00:33.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 2 2016 19:34:53 UTC
+06-May-2017 11:00:33.695 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.32.0
+06-May-2017 11:00:33.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+06-May-2017 11:00:33.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.8.12-040812-generic
+06-May-2017 11:00:33.697 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-May-2017 11:00:33.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-oracle/jre
+06-May-2017 11:00:33.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_31-b13
+06-May-2017 11:00:33.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-May-2017 11:00:33.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/travis/build/liferay-labs/arquillian-blade-example/liferay/liferay-ce-portal-7.0-ga3/tomcat-8.0.32
+06-May-2017 11:00:33.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/travis/build/liferay-labs/arquillian-blade-example/liferay/liferay-ce-portal-7.0-ga3/tomcat-8.0.32
+06-May-2017 11:00:33.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/travis/build/liferay-labs/arquillian-blade-example/liferay/liferay-ce-portal-7.0-ga3/tomcat-8.0.32/conf/logging.properties
+06-May-2017 11:00:33.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-May-2017 11:00:33.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF8
+06-May-2017 11:00:33.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.net.preferIPv4Stack=true
+06-May-2017 11:00:33.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.loader.WebappClassLoader.ENABLE_CLEAR_REFERENCES=false
+06-May-2017 11:00:33.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Duser.timezone=GMT
+06-May-2017 11:00:33.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1024m
+06-May-2017 11:00:33.707 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:MaxPermSize=384m
+06-May-2017 11:00:33.707 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.rmi.server.hostname=127.0.0.1
+06-May-2017 11:00:33.708 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.local.only=false
+06-May-2017 11:00:33.708 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/home/travis/build/liferay-labs/arquillian-blade-example/build/jacoco/jacocoagent.jar=destfile=/home/travis/build/liferay-labs/arquillian-blade-example/build/jacoco/testIntegration.exec,output=file,append=true,jmx=true
+06-May-2017 11:00:33.709 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote
+06-May-2017 11:00:33.709 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.authenticate=false
+06-May-2017 11:00:33.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.port=8099
+06-May-2017 11:00:33.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+06-May-2017 11:00:33.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/home/travis/build/liferay-labs/arquillian-blade-example/liferay/liferay-ce-portal-7.0-ga3/tomcat-8.0.32/endorsed
+06-May-2017 11:00:33.734 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/travis/build/liferay-labs/arquillian-blade-example/liferay/liferay-ce-portal-7.0-ga3/tomcat-8.0.32
+06-May-2017 11:00:33.735 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/travis/build/liferay-labs/arquillian-blade-example/liferay/liferay-ce-portal-7.0-ga3/tomcat-8.0.32
+06-May-2017 11:00:33.736 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/travis/build/liferay-labs/arquillian-blade-example/liferay/liferay-ce-portal-7.0-ga3/tomcat-8.0.32/temp
+06-May-2017 11:00:33.736 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+06-May-2017 11:00:34.060 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-May-2017 11:00:34.090 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+06-May-2017 11:00:34.111 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+06-May-2017 11:00:34.115 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+06-May-2017 11:00:34.116 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1842 ms
+06-May-2017 11:00:34.177 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+06-May-2017 11:00:34.178 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.32
+06-May-2017 11:00:34.198 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /home/travis/build/liferay-labs/arquillian-blade-example/liferay/liferay-ce-portal-7.0-ga3/tomcat-8.0.32/conf/Catalina/localhost/ROOT.xml
+06-May-2017 11:06:05.565 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /home/travis/build/liferay-labs/arquillian-blade-example/liferay/liferay-ce-portal-7.0-ga3/tomcat-8.0.32/conf/Catalina/localhost/ROOT.xml has finished in 331,367 ms
+06-May-2017 11:06:05.571 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/travis/build/liferay-labs/arquillian-blade-example/liferay/liferay-ce-portal-7.0-ga3/tomcat-8.0.32/webapps/manager
+06-May-2017 11:06:06.731 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/travis/build/liferay-labs/arquillian-blade-example/liferay/liferay-ce-portal-7.0-ga3/tomcat-8.0.32/webapps/manager has finished in 1,160 ms
+06-May-2017 11:06:06.746 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-May-2017 11:06:06.771 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+06-May-2017 11:06:06.772 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 332655 ms
