@@ -53,6 +53,8 @@ dependencies {
 	testIntegrationCompile group: "junit", name: "junit", version: "4.12"
 	testIntegrationCompile group: "org.jboss.arquillian.graphene", name: "graphene-webdriver", version: "2.1.0.Final"
 	testIntegrationCompile group: "org.jboss.arquillian.junit", name: "arquillian-junit-container", version: "1.1.11.Final"
+	testIntegrationCompile group: 'org.arquillian.extension', name: 'arquillian-desktop-video-recorder', version: '1.1.6.Final'
+	testIntegrationCompile group: 'org.jboss.arquillian.graphene', name: 'arquillian-browser-screenshooter', version: '2.2.0'
 }
 
 import de.undercouch.gradle.tasks.download.Download
@@ -68,6 +70,11 @@ def bundle = 'liferay/bundle.zip'
 
 liferay {
 	liferayHome = 'liferay/liferay-ce-portal-7.0-ga3'
+}
+
+task copyDependencies(type: Copy) {
+	from configurations.testIntegrationRuntime - configurations.compile - configurations.runtime - configurations.testIntegrationCompile
+	into "${liferay.liferayHome}/osgi/modules"
 }
 
 task copyJacocoAgent(type: Copy) {
@@ -111,13 +118,67 @@ jar {
 
 setUpTestableTomcat {
 	dependsOn copyJacocoAgent
+	dependsOn copyDependencies
 
 	// enable the line below if you have trouble with integration test connection to JMX server
-	//catalinaOptsReplacement "-XX:MaxPermSize=384m\"", "-XX:MaxPermSize=384m\"\n\nJACOCO_OPTS=\"-Djava.rmi.server.hostname=localhost -Dcom.sun.management.jmxremote.local.only=false -javaagent:${rootDir}/build/jacoco/jacocoagent.jar=destfile=${rootDir}/build/jacoco/testIntegration.exec,output=file,append=true,jmx=true\"\n\nCATALINA_OPTS=\"\${CATALINA_OPTS} \${JACOCO_OPTS}\"\n"
+	catalinaOptsReplacement "-XX:MaxPermSize=384m\"", "-XX:MaxPermSize=384m\"\n\nJACOCO_OPTS=\"-Djava.rmi.server.hostname=localhost -Dcom.sun.management.jmxremote.local.only=true -javaagent:${rootDir}/build/jacoco/jacocoagent.jar=destfile=${rootDir}/build/jacoco/testIntegration.exec,output=file,append=true,jmx=true\"\n\nCATALINA_OPTS=\"\${CATALINA_OPTS} \${JACOCO_OPTS}\"\n"
+}
+
+task checkJMX {
+	doLast {
+		def serverUrl = 'service:jmx:rmi:///jndi/rmi://127.0.0.1:8099/jmxrmi'
+
+		def mbeans = JmxFactory.connect(new JmxUrl(serverUrl)).MBeanServerConnection
+
+		println "Total MBeans: ${mbeans.MBeanCount}\n"
+
+		def webBean = mbeans.queryNames(null, null).find {
+			if(it.getKeyProperty('framework').equals('org.eclipse.osgi') && it.getKeyProperty('type').equals('framework')) {
+				println "NAME "  + it.getKeyPropertyListString()
+
+			}
+
+		}
+	}
+}
+
+def waitForUrlToBeAvailable(url) {
+	println("Trying to reach " + url)
+
+	while (true) {
+		try {
+			print(".")
+
+			url.toURL().text
+
+			println(url + " can now be reached")
+
+			break
+		}
+		catch (Exception e) {
+			Thread.sleep(1000)
+		}
+	}
+}
+
+
+
+task checkURL() {
+	doLast {
+		waitForUrlToBeAvailable("http://localhost:8080")
+	}
+}
+
+stopTestableTomcat {
+	enabled = false
 }
 
 startTestableTomcat {
+	finalizedBy checkURL
+	finalizedBy checkJMX
+
 	checkTimeout = 10 * 60 * 1000
+	enabled = false
 }
 
 repositories {
@@ -130,7 +191,7 @@ repositories {
 
 task dumpJacoco {
 	doLast {
-		def serverUrl = 'service:jmx:rmi:///jndi/rmi://localhost:8099/jmxrmi'
+		def serverUrl = 'service:jmx:rmi:///jndi/rmi://127.0.0.1:8099/jmxrmi'
 		String beanName = "org.jacoco:type=Runtime"
 		def server = JmxFactory.connect(new JmxUrl(serverUrl)).MBeanServerConnection
 		def gmxb = new GroovyMBean(server, beanName)
@@ -153,6 +214,9 @@ jacocoTestReport {
 }
 
 testIntegration {
+	dependsOn checkURL
+	dependsOn checkJMX
+
 	finalizedBy jacocoTestReport
 }
 
