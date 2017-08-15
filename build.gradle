@@ -95,6 +95,8 @@ dependencies {
 
 	testIntegrationCompile group: "com.liferay.arquillian", name: "com.liferay.arquillian.arquillian-container-liferay", version: "1.0.6"
 	testIntegrationCompile group: "junit", name: "junit", version: "4.12"
+    testIntegrationCompile group: "log4j", name: "log4j", version: "1.2.17"
+	testIntegrationCompile group: "org.slf4j", name: "slf4j-log4j12", version: "1.7.5"
 	testIntegrationCompile group: "org.jboss.arquillian.graphene", name: "graphene-webdriver", version: "2.1.0.Final"
 	testIntegrationCompile group: "org.jboss.arquillian.junit", name: "arquillian-junit-container", version: "1.1.11.Final"
 }
