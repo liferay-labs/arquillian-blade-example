@@ -1,3 +1,7 @@
+dist: trusty
+
+sudo: required
+
 addons:
   firefox: "44.0"
 
